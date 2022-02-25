@@ -38,7 +38,7 @@ Always be asking yourself 'if I was to take away the question and any comments, 
 
 There are lots of sites that offer katas (self-contained coding problems) for you to sharpen your problem-solving skills. One of the most important things you can do is get as much practise problem-solving with JavaScript as possible.
 
-Sign up with [Codewars](http://www.codewars.com/r/LwRQbA) and email us at [precourse@northcoders.com](mailto:precourse@northcoders.com) to let us know your account name so we can track your progress, if you haven't already. You should be aiming to complete level 8, 7 and 6 katas to put into practise what you are learning in the Precourse.  You should aim to have 200 points before you start the Developer Pathway. Take the opportunity to look at other people's solutions - but remember, the shortest isn't necessarily the best. Clarity should always be your number one concern.
+Sign up with [Codewars](http://www.codewars.com/r/LwRQbA) and messaging us on slack to let us know your account name so we can track your progress, if you haven't already. You should be aiming to complete level 8, 7 and 6 katas to put into practise what you are learning in the Precourse.  You should aim to have 200 points before you start the Developer Pathway. Take the opportunity to look at other people's solutions - but remember, the shortest isn't necessarily the best. Clarity should always be your number one concern.
 
 Here are some recommended Codewars katas to get you started.
 
