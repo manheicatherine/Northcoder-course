@@ -89,7 +89,7 @@ Make sure you have installed git (revisit the Install Guide if necessary) and th
 
 For a basic introduction to git and Github, please watch videos 1-7 of [this playlist](https://www.youtube.com/playlist?list=PLRqwX-V7Uu6ZF9C0YMKuns9sLDzK6zoiV).
 
-Try out git yourself by following the GitHub Learning Lab course at the bottom of this page of the [GitHib Learning Resources](https://try.github.io/).
+Try out git yourself by following the GitHub Learning Lab course [here](https://lab.github.com/githubtraining/introduction-to-github).
 
 You will need to use git to download this repository so that you can complete the final challenges!
 
