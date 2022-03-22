@@ -95,9 +95,9 @@ You will need to use git to download this repository so that you can complete th
 
 ### Challenges
 
-The challenges attached to this section are designed to test your coding ability and help you build familiarity with the environment you will be using every day on the course. We
+The challenges attached to this section are designed to test your coding ability and help you build familiarity with the environment you will be using every day on the course.
 
-we are looking for you to show your understanding of the different types of values there are in JavaScript, and some of their attached methods. We also want to see your ability to solve problems and use what you've learnt about JavaScript logic creatively.
+We are looking for you to show your understanding of the different types of values there are in JavaScript, and some of their attached methods. We also want to see your ability to solve problems and use what you've learnt about JavaScript logic creatively.
 
 These videos show the workflow required to get and solve the final challenges. There's step-by-step instructions below too - this will put your skills with the command line and git to the test, alongside JavaScript problem solving.
 
