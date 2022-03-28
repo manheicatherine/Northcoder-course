@@ -1,4 +1,3 @@
-const { expect } = require("chai");
 const {
   modulo,
   squareRoot,
@@ -46,67 +45,67 @@ const {
 describe("types", () => {
   describe("Basic Maths", () => {
     it("mod returns the remainder of dividing a by b", () => {
-      expect(modulo(4, 2)).to.equal(0);
-      expect(modulo(7, 2)).to.equal(1);
+      expect(modulo(4, 2)).toEqual(0);
+      expect(modulo(7, 2)).toEqual(1);
     });
 
     it("squareRoot returns the square root of n", () => {
-      expect(squareRoot(4)).to.equal(2);
-      expect(squareRoot(16)).to.equal(4);
+      expect(squareRoot(4)).toEqual(2);
+      expect(squareRoot(16)).toEqual(4);
     });
 
     it("raiseToPower returns m to the nth power§", () => {
-      expect(raiseToPower(2, 3)).to.equal(8);
-      expect(raiseToPower(3, 4)).to.equal(81);
-      expect(raiseToPower(8, 0)).to.equal(1);
+      expect(raiseToPower(2, 3)).toEqual(8);
+      expect(raiseToPower(3, 4)).toEqual(81);
+      expect(raiseToPower(8, 0)).toEqual(1);
     });
   });
 
   describe("formatMoney", () => {
     it("adds zeroes up to 2 decimal numbers", () => {
-      expect(formatMoney(1)).to.equal("£1.00");
+      expect(formatMoney(1)).toEqual("£1.00");
     });
     it("rounds to 2 decimal numbers", () => {
-      expect(formatMoney(3.457)).to.equal("£3.46");
+      expect(formatMoney(3.457)).toEqual("£3.46");
     });
   });
 
   describe("calculateCircleArea", () => {
     it("returns the area of a circle", () => {
-      expect(calculateCircleArea(1)).to.equal(3.142);
-      expect(calculateCircleArea(2)).to.equal(12.566);
-      expect(calculateCircleArea(3)).to.equal(28.274);
+      expect(calculateCircleArea(1)).toEqual(3.142);
+      expect(calculateCircleArea(2)).toEqual(12.566);
+      expect(calculateCircleArea(3)).toEqual(28.274);
     });
   });
 
   describe("calculateFullTurns", () => {
     it("returns the amount of full turns you can make with the passed degrees", () => {
-      expect(calculateFullTurns(90)).to.equal(0);
-      expect(calculateFullTurns(363)).to.equal(1);
-      expect(calculateFullTurns(800)).to.equal(2);
-      expect(calculateFullTurns(2000)).to.equal(5);
+      expect(calculateFullTurns(90)).toEqual(0);
+      expect(calculateFullTurns(363)).toEqual(1);
+      expect(calculateFullTurns(800)).toEqual(2);
+      expect(calculateFullTurns(2000)).toEqual(5);
     });
   });
 
   describe("getLength", () => {
     it("returns the length of the passed string", () => {
-      expect(getLength("")).to.equal(0);
-      expect(getLength("hello")).to.equal(5);
-      expect(getLength("hello northcoders")).to.equal(17);
+      expect(getLength("")).toEqual(0);
+      expect(getLength("hello")).toEqual(5);
+      expect(getLength("hello northcoders")).toEqual(17);
     });
   });
 
   describe("putNamesTogether", () => {
     it("returns the passed names separated by a space", () => {
-      expect(putNamesTogether("Kevin", "Durant")).to.equal("Kevin Durant");
-      expect(putNamesTogether("Stephen", "Curry")).to.equal("Stephen Curry");
+      expect(putNamesTogether("Kevin", "Durant")).toEqual("Kevin Durant");
+      expect(putNamesTogether("Stephen", "Curry")).toEqual("Stephen Curry");
     });
   });
 
   describe("capitaliseString", () => {
     it("returns the passed string with the first letter capitalised", () => {
-      expect(capitaliseString("hello")).to.equal("Hello");
-      expect(capitaliseString("hello northcoders")).to.equal(
+      expect(capitaliseString("hello")).toEqual("Hello");
+      expect(capitaliseString("hello northcoders")).toEqual(
         "Hello northcoders"
       );
     });
@@ -114,7 +113,7 @@ describe("types", () => {
 
   describe("dontShoutSentence", () => {
     it("returns the passed sentence in lower case, keeping the first char capitalised", () => {
-      expect(dontShoutSentence("HELLO NORTHCODERS!!!")).to.equal(
+      expect(dontShoutSentence("HELLO NORTHCODERS!!!")).toEqual(
         "Hello northcoders!!!"
       );
     });
@@ -122,43 +121,43 @@ describe("types", () => {
 
   describe("getMiddle", () => {
     it("returns the middle character of an odd length string", () => {
-      expect(getMiddle("abc")).to.equal("b");
+      expect(getMiddle("abc")).toEqual("b");
     });
     it("returns the middle character of an odd length string", () => {
-      expect(getMiddle("abcde")).to.equal("c");
+      expect(getMiddle("abcde")).toEqual("c");
     });
     it("returns the middle two chracters of an even length string", () => {
-      expect(getMiddle("aabbcc")).to.equal("bb");
+      expect(getMiddle("aabbcc")).toEqual("bb");
     });
   });
 
   describe("getLastWord", () => {
     it("returns the last word of the passed sentence", () => {
-      expect(getLastWord("hello")).to.equal("hello");
-      expect(getLastWord("hello northcoders")).to.equal("northcoders");
-      expect(getLastWord("hello northcoders, what is going on")).to.equal("on");
+      expect(getLastWord("hello")).toEqual("hello");
+      expect(getLastWord("hello northcoders")).toEqual("northcoders");
+      expect(getLastWord("hello northcoders, what is going on")).toEqual("on");
     });
   });
 
   describe("hyphenateWords", () => {
     it("returns the passed string with spaces replaced by hyphens", () => {
-      expect(hyphenateWords("hello")).to.equal("hello");
-      expect(hyphenateWords("hello northcoders")).to.equal("hello-northcoders");
-      expect(hyphenateWords("what is going on")).to.equal("what-is-going-on");
+      expect(hyphenateWords("hello")).toEqual("hello");
+      expect(hyphenateWords("hello northcoders")).toEqual("hello-northcoders");
+      expect(hyphenateWords("what is going on")).toEqual("what-is-going-on");
     });
   });
 
   describe("convertToCamelCase", () => {
     it("returns the passed string convertedToCamelCase", () => {
-      expect(convertToCamelCase("hello")).to.equal("hello");
-      expect(convertToCamelCase("hello northcoders")).to.equal(
+      expect(convertToCamelCase("hello")).toEqual("hello");
+      expect(convertToCamelCase("hello northcoders")).toEqual(
         "helloNorthcoders"
       );
-      expect(convertToCamelCase("what is going on")).to.equal("whatIsGoingOn");
+      expect(convertToCamelCase("what is going on")).toEqual("whatIsGoingOn");
     });
     it("The very first letter should always be lower case", () => {
-      expect(convertToCamelCase("Hello")).to.equal("hello");
-      expect(convertToCamelCase("I start lower cased")).to.equal(
+      expect(convertToCamelCase("Hello")).toEqual("hello");
+      expect(convertToCamelCase("I start lower cased")).toEqual(
         "iStartLowerCased"
       );
     });
@@ -166,132 +165,132 @@ describe("types", () => {
 
   describe("areValuesEqual", () => {
     it("returns true if passed values are equal", () => {
-      expect(areValuesEqual(1, 1)).to.equal(true);
-      expect(areValuesEqual("hello", "hello")).to.equal(true);
-      expect(areValuesEqual(true, true)).to.equal(true);
+      expect(areValuesEqual(1, 1)).toEqual(true);
+      expect(areValuesEqual("hello", "hello")).toEqual(true);
+      expect(areValuesEqual(true, true)).toEqual(true);
       const arr = [];
-      expect(areValuesEqual(arr, arr)).to.equal(true);
+      expect(areValuesEqual(arr, arr)).toEqual(true);
     });
     it("returns false if passed values that are not equal", () => {
-      expect(areValuesEqual(2, 1)).to.equal(false);
-      expect(areValuesEqual("hello", false)).to.equal(false);
-      expect(areValuesEqual(true, "apple")).to.equal(false);
-      expect(areValuesEqual([], [])).to.equal(false);
+      expect(areValuesEqual(2, 1)).toEqual(false);
+      expect(areValuesEqual("hello", false)).toEqual(false);
+      expect(areValuesEqual(true, "apple")).toEqual(false);
+      expect(areValuesEqual([], [])).toEqual(false);
     });
   });
 
   describe("areValuesNotEqual", () => {
     it("returns true if passed values that are not equal", () => {
-      expect(areValuesNotEqual(2, 1)).to.equal(true);
-      expect(areValuesNotEqual("hello", false)).to.equal(true);
-      expect(areValuesNotEqual(true, "apple")).to.equal(true);
-      expect(areValuesNotEqual([], [])).to.equal(true);
+      expect(areValuesNotEqual(2, 1)).toEqual(true);
+      expect(areValuesNotEqual("hello", false)).toEqual(true);
+      expect(areValuesNotEqual(true, "apple")).toEqual(true);
+      expect(areValuesNotEqual([], [])).toEqual(true);
     });
     it("returns false if passed values are equal", () => {
-      expect(areValuesNotEqual(1, 1)).to.equal(false);
-      expect(areValuesNotEqual("hello", "hello")).to.equal(false);
-      expect(areValuesNotEqual(true, true)).to.equal(false);
+      expect(areValuesNotEqual(1, 1)).toEqual(false);
+      expect(areValuesNotEqual("hello", "hello")).toEqual(false);
+      expect(areValuesNotEqual(true, true)).toEqual(false);
       const arr = [];
-      expect(areValuesNotEqual(arr, arr)).to.equal(false);
+      expect(areValuesNotEqual(arr, arr)).toEqual(false);
     });
   });
 
   describe("isFromThe60s", () => {
     it("returns true if the passed value is between 1960 and 1969 (inclusive)", () => {
-      expect(isFromThe60s(1960)).to.equal(true);
-      expect(isFromThe60s(1965)).to.equal(true);
-      expect(isFromThe60s(1969)).to.equal(true);
+      expect(isFromThe60s(1960)).toEqual(true);
+      expect(isFromThe60s(1965)).toEqual(true);
+      expect(isFromThe60s(1969)).toEqual(true);
     });
     it("returns false if the passed value is not between 1960 and 1969 (inclusive)", () => {
-      expect(isFromThe60s(1959)).to.equal(false);
-      expect(isFromThe60s(1860)).to.equal(false);
-      expect(isFromThe60s(1970)).to.equal(false);
+      expect(isFromThe60s(1959)).toEqual(false);
+      expect(isFromThe60s(1860)).toEqual(false);
+      expect(isFromThe60s(1970)).toEqual(false);
     });
   });
 
   describe("isEvenLength", () => {
     it("returns true if the passed string has an even-numbered length", () => {
-      expect(isEvenLength("aabb")).to.equal(true);
-      expect(isEvenLength("aabbcc")).to.equal(true);
-      expect(isEvenLength("")).to.equal(true);
+      expect(isEvenLength("aabb")).toEqual(true);
+      expect(isEvenLength("aabbcc")).toEqual(true);
+      expect(isEvenLength("")).toEqual(true);
     });
     it("returns false if the passed string has an odd-numbered length", () => {
-      expect(isEvenLength("aabbc")).to.equal(false);
-      expect(isEvenLength("aabbccd")).to.equal(false);
-      expect(isEvenLength("d")).to.equal(false);
+      expect(isEvenLength("aabbc")).toEqual(false);
+      expect(isEvenLength("aabbccd")).toEqual(false);
+      expect(isEvenLength("d")).toEqual(false);
     });
   });
 
   describe("areStringsEqualCaseInsensitive", () => {
     it("returns true if the passed strings are equal (case insensitive)", () => {
-      expect(areStringsEqualCaseInsensitive("hello", "hello")).to.equal(true);
-      expect(areStringsEqualCaseInsensitive("hello", "HELLO")).to.equal(true);
-      expect(areStringsEqualCaseInsensitive("bAnAnA", "BANana")).to.equal(true);
+      expect(areStringsEqualCaseInsensitive("hello", "hello")).toEqual(true);
+      expect(areStringsEqualCaseInsensitive("hello", "HELLO")).toEqual(true);
+      expect(areStringsEqualCaseInsensitive("bAnAnA", "BANana")).toEqual(true);
     });
     it("returns false if the passed strings are not equal (case insensitive)", () => {
-      expect(areStringsEqualCaseInsensitive("hello", "hellA")).to.equal(false);
-      expect(areStringsEqualCaseInsensitive("apple", "BANANA")).to.equal(false);
+      expect(areStringsEqualCaseInsensitive("hello", "hellA")).toEqual(false);
+      expect(areStringsEqualCaseInsensitive("apple", "BANANA")).toEqual(false);
     });
   });
 
   describe("getEvenNumbers", () => {
     it("returns an array of all even numbers in the passed array", () => {
-      expect(getEvenNumbers([1, 2, 3])).to.eql([2]);
-      expect(getEvenNumbers([2, 4, 6])).to.eql([2, 4, 6]);
-      expect(getEvenNumbers([1, 3, 5])).to.eql([]);
+      expect(getEvenNumbers([1, 2, 3])).toEqual([2]);
+      expect(getEvenNumbers([2, 4, 6])).toEqual([2, 4, 6]);
+      expect(getEvenNumbers([1, 3, 5])).toEqual([]);
     });
   });
 
   describe("getItemsLongerThan", () => {
     it("returns an array of items in the passed array that are longer than the passed length", () => {
       const array = ["ccc", "a", "dddd", "bb"];
-      expect(getItemsLongerThan(array, 0)).to.eql(array);
-      expect(getItemsLongerThan(array, 1)).to.eql(["ccc", "dddd", "bb"]);
-      expect(getItemsLongerThan(array, 2)).to.eql(["ccc", "dddd"]);
-      expect(getItemsLongerThan(array, 10)).to.eql([]);
+      expect(getItemsLongerThan(array, 0)).toEqual(array);
+      expect(getItemsLongerThan(array, 1)).toEqual(["ccc", "dddd", "bb"]);
+      expect(getItemsLongerThan(array, 2)).toEqual(["ccc", "dddd"]);
+      expect(getItemsLongerThan(array, 10)).toEqual([]);
     });
   });
 
   describe("getLastItems", () => {
     it("returns an array with the n last items of the passed array", () => {
       const array = ["a", 2, true, 4, null];
-      expect(getLastItems(array, 1)).to.eql([null]);
-      expect(getLastItems(array, 3)).to.eql([true, 4, null]);
-      expect(getLastItems(array, 5)).to.eql(array);
+      expect(getLastItems(array, 1)).toEqual([null]);
+      expect(getLastItems(array, 3)).toEqual([true, 4, null]);
+      expect(getLastItems(array, 5)).toEqual(array);
     });
   });
 
   describe("getSandwichFilling", () => {
     it("returns an array with all the items of the passed array except the first and last ones", () => {
       const array = [1, 2, 3];
-      expect(getSandwichFilling(array)).to.eql([2]);
+      expect(getSandwichFilling(array)).toEqual([2]);
       const burger = ["bread", "tomato", "lettuce", "cheese", "patty", "bread"];
-      expect(getSandwichFilling(burger)).to.eql([
+      expect(getSandwichFilling(burger)).toEqual([
         "tomato",
         "lettuce",
         "cheese",
         "patty"
       ]);
       const sadSandwich = ["bread", "bread"];
-      expect(getSandwichFilling(sadSandwich)).to.eql([]);
+      expect(getSandwichFilling(sadSandwich)).toEqual([]);
     });
   });
 
   describe("removeItem", () => {
     it("returns a new array without the item in the passed position", () => {
-      expect(removeItem([1], 0)).to.eql([]);
-      expect(removeItem([1, 2, 3], 1)).to.eql([1, 3]);
-      expect(removeItem([1, 7, 0, 4], 2)).to.eql([1, 7, 4]);
-      expect(removeItem([1, 2, 1], 2)).to.eql([1, 2]);
+      expect(removeItem([1], 0)).toEqual([]);
+      expect(removeItem([1, 2, 3], 1)).toEqual([1, 3]);
+      expect(removeItem([1, 7, 0, 4], 2)).toEqual([1, 7, 4]);
+      expect(removeItem([1, 2, 1], 2)).toEqual([1, 2]);
     });
     it("doesn't mutate the passed array, i.e. it returns a new array, leaving the original one unmodified", () => {
       const original = [1, 2, 3];
       const modified = removeItem(original, 1);
-      expect(original).to.not.equal(modified);
-      expect(original).to.eql([1, 2, 3]);
+      expect(original).not.toEqual(modified);
+      expect(original).toEqual([1, 2, 3]);
     });
     it("ignores arguments out of the length of the array", () => {
-      expect(removeItem([1, 2, 3], 8)).to.eql([1, 2, 3]);
+      expect(removeItem([1, 2, 3], 8)).toEqual([1, 2, 3]);
     });
   });
 
@@ -299,20 +298,20 @@ describe("types", () => {
     it("returns a new array with all the elements of the two passed arrays", () => {
       let a, b;
       (a = [1, 2, 3]), (b = [4, 5, 6]);
-      expect(mergeArrays(a, b)).to.eql([1, 2, 3, 4, 5, 6]);
+      expect(mergeArrays(a, b)).toEqual([1, 2, 3, 4, 5, 6]);
       (a = []), (b = [4, 5, 6]);
-      expect(mergeArrays(a, b)).to.eql([4, 5, 6]);
+      expect(mergeArrays(a, b)).toEqual([4, 5, 6]);
       (a = [1, 2, 3]), (b = []);
-      expect(mergeArrays(a, b)).to.eql([1, 2, 3]);
+      expect(mergeArrays(a, b)).toEqual([1, 2, 3]);
     });
     it("does not mutate the passed arrays, i.e. returns a new array, leaving the original arrays untouched", () => {
       const a = [1, 2, 3],
         b = [4, 5, 6];
       const merged = mergeArrays(a, b);
-      expect(merged).to.not.equal(a);
-      expect(merged).to.not.equal(b);
-      expect(a).to.eql([1, 2, 3]);
-      expect(b).to.eql([4, 5, 6]);
+      expect(merged).not.toEqual(a);
+      expect(merged).not.toEqual(b);
+      expect(a).toEqual([1, 2, 3]);
+      expect(b).toEqual([4, 5, 6]);
     });
   });
 
@@ -321,17 +320,17 @@ describe("types", () => {
       let arrayOfArrays, expected;
       arrayOfArrays = [[1, 2], [], [3], ["hello", true]];
       expected = [1, 2, 3, "hello", true];
-      expect(flattenArrayByOne(arrayOfArrays)).to.eql(expected);
+      expect(flattenArrayByOne(arrayOfArrays)).toEqual(expected);
 
       arrayOfArrays = [[1], [2], [[3, 4]]];
       expected = [1, 2, [3, 4]];
-      expect(flattenArrayByOne(arrayOfArrays)).to.eql(expected);
+      expect(flattenArrayByOne(arrayOfArrays)).toEqual(expected);
     });
     it("does not mutate the passed array, i.e. returns a new array, leaving the original untouched", () => {
       const original = [[1, 2], [], [3, 4]];
       const flat = flattenArrayByOne(original);
-      expect(original).to.not.equal(flat);
-      expect(original).to.eql([[1, 2], [], [3, 4]]);
+      expect(original).not.toEqual(flat);
+      expect(original).toEqual([[1, 2], [], [3, 4]]);
     });
   });
 
@@ -343,7 +342,7 @@ describe("types", () => {
         [-2, 9, -1],
         [1, 2, 3, 4, 5, 9]
       ];
-      expect(isItemOmnipresent(arrayOfArrays, 9)).to.be.true;
+      expect(isItemOmnipresent(arrayOfArrays, 9)).toBe(true);
     });
     it("returns false if the passed value is not present in at least one array inside the passed array", () => {
       let arrayOfArrays = [
@@ -351,47 +350,48 @@ describe("types", () => {
         [4, 5, 9],
         [-2, 1, -1]
       ];
-      expect(isItemOmnipresent(arrayOfArrays, 9)).to.be.false;
+      expect(isItemOmnipresent(arrayOfArrays, 9)).toBe(false);
       arrayOfArrays = [
         [6, 2, 3],
         [4, 5, 8],
         [-2, 9, -1]
       ];
-      expect(isItemOmnipresent(arrayOfArrays, 9)).to.be.false;
+      expect(isItemOmnipresent(arrayOfArrays, 9)).toBe(false);
       arrayOfArrays = [
         [4, 2, 3],
         [4, 5, 9],
         [-2, 9, 9]
       ];
-      expect(isItemOmnipresent(arrayOfArrays, 9)).to.be.false;
+      expect(isItemOmnipresent(arrayOfArrays, 9)).toBe(false);
     });
   });
 
   describe("isOver40", function() {
     it("returns true if the user is over 40", function() {
-      expect(isOver40({ age: 55 })).to.be.true;
-      expect(isOver40({ age: 41 })).to.be.true;
-      expect(isOver40({ age: 107 })).to.be.true;
-      expect(isOver40({ age: 999 })).to.be.true;
+      expect(isOver40({ age: 55 })).toBe(true)
+      expect(isOver40({ age: 41 })).toBe(true)
+      expect(isOver40({ age: 107 })).toBe(true)
+      expect(isOver40({ age: 999 })).toBe(true)
     });
     it("returns false if the user is 40 or younger", function() {
-      expect(isOver40({ age: 40 })).to.be.false;
-      expect(isOver40({ age: 4 })).to.be.false;
-      expect(isOver40({ age: 10 })).to.be.false;
-      expect(isOver40({ age: 29 })).to.be.false;
+      expect(isOver40({ age: 40 })).toBe(false)
+      expect(isOver40({ age: 4 })).toBe(false)
+      expect(isOver40({ age: 10 })).toBe(false)
+      expect(isOver40({ age: 29 })).toBe(false)
     });
     it("ignores other properties", () => {
-      expect(isOver40({ age: 4, favouriteNumber: 60 })).to.be.false;
+      expect(isOver40({ age: 4, favouriteNumber: 60 })).toBe(false)
     });
   });
 
+  // !!!!!!!!! red flag
   describe("getUserAge", () => {
     it("returns the age of the passed user based on its yearOfBirth property", () => {
       const currentYear = new Date().getFullYear();
       const user = {
         yearOfBirth: 1989
       };
-      expect(getUserAge(user)).to.equal(currentYear - 1989);
+      expect(getUserAge(user)).toEqual(currentYear - 1989);
     });
   });
 
@@ -407,17 +407,17 @@ describe("types", () => {
         age: 29,
         pet: { name: "Dave", age: 13, type: "cat" }
       };
-      expect(getUserPetAge(tom)).to.equal(6);
-      expect(getUserPetAge(paul)).to.equal(13);
+      expect(getUserPetAge(tom)).toEqual(6);
+      expect(getUserPetAge(paul)).toEqual(13);
     });
   });
 
   describe("createProduct", function() {
     it("should create the expected product", function() {
-      expect(createProduct()).to.haveOwnProperty("type");
-      expect(createProduct()).to.haveOwnProperty("price");
-      expect(createProduct().price).to.be.a("number");
-      expect(createProduct().type).to.be.a("string");
+      expect(createProduct()).toHaveProperty("type");
+      expect(createProduct()).toHaveProperty("price");
+      expect(typeof createProduct().price).toBe("number");
+      expect(typeof createProduct().type).toBe("string");
     });
   });
 
@@ -427,13 +427,13 @@ describe("types", () => {
         type: "Tofu slices"
       };
       let newProduct = addPriceToProduct(product, 1.25);
-      expect(newProduct).to.eql({ type: "Tofu slices", price: 1.25 });
-      expect(product.price).to.equal(1.25);
+      expect(newProduct).toEqual({ type: "Tofu slices", price: 1.25 });
+      expect(product.price).toEqual(1.25);
       delete product.price;
-      expect(product).to.eql({ type: "Tofu slices" });
+      expect(product).toEqual({ type: "Tofu slices" });
       newProduct = addPriceToProduct(product, 1.35);
-      expect(newProduct).to.eql({ type: "Tofu slices", price: 1.35 });
-      expect(product.price).to.equal(1.35);
+      expect(newProduct).toEqual({ type: "Tofu slices", price: 1.35 });
+      expect(product.price).toEqual(1.35);
     });
   });
 
@@ -444,9 +444,9 @@ describe("types", () => {
         price: "£1.09",
         quantity: 8
       };
-      expect(getPropertyOfProduct(satsumas, "price")).to.equal("£1.09");
-      expect(getPropertyOfProduct(satsumas, "quantity")).to.equal(8);
-      expect(getPropertyOfProduct(satsumas, "type")).to.equal(
+      expect(getPropertyOfProduct(satsumas, "price")).toEqual("£1.09");
+      expect(getPropertyOfProduct(satsumas, "quantity")).toEqual(8);
+      expect(getPropertyOfProduct(satsumas, "type")).toEqual(
         "Easy-peeler satsumas"
       );
     });
@@ -456,9 +456,9 @@ describe("types", () => {
         price: "£0.79",
         quantity: 1
       };
-      expect(getPropertyOfProduct(springGreens, "price")).to.equal("£0.79");
-      expect(getPropertyOfProduct(springGreens, "quantity")).to.equal(1);
-      expect(getPropertyOfProduct(springGreens, "type")).to.equal(
+      expect(getPropertyOfProduct(springGreens, "price")).toEqual("£0.79");
+      expect(getPropertyOfProduct(springGreens, "quantity")).toEqual(1);
+      expect(getPropertyOfProduct(springGreens, "type")).toEqual(
         "Crisp spring greens"
       );
     });
@@ -471,7 +471,7 @@ describe("types", () => {
         price: "£6.99",
         quantity: 1
       };
-      expect(addPropertyToProduct(dvd, "length", "2h 36m")).to.eql({
+      expect(addPropertyToProduct(dvd, "length", "2h 36m")).toEqual({
         type: "Terminator 2: Judgement Day",
         price: "£6.99",
         quantity: 1,
@@ -484,7 +484,7 @@ describe("types", () => {
           "Robert Patrick",
           "Edward Furlong"
         ])
-      ).to.eql({
+      ).toEqual({
         type: "Terminator 2: Judgement Day",
         price: "£6.99",
         quantity: 1,
@@ -502,26 +502,26 @@ describe("types", () => {
   describe("createNorthcoder", () => {
     it("returns an object with a 'name' property set to the passed name argument", () => {
       let northcoder = createNorthcoder("Mauro");
-      expect(northcoder).to.haveOwnProperty("name");
-      expect(northcoder.name).to.equal("Mauro");
+      expect(northcoder).hasOwnProperty("name");
+      expect(northcoder.name).toEqual("Mauro");
 
       northcoder = createNorthcoder("Ant");
-      expect(northcoder).to.haveOwnProperty("name");
-      expect(northcoder.name).to.equal("Ant");
+      expect(northcoder).hasOwnProperty("name");
+      expect(northcoder.name).toEqual("Ant");
     });
     it("returns an object with an 'age' property set to the user's age in the year 2019 according to the passed yearOfBirth argument", () => {
       let northcoder = createNorthcoder("Mauro", 1989);
-      expect(northcoder).to.haveOwnProperty("age");
-      expect(northcoder.age).to.equal(30);
+      expect(northcoder).hasOwnProperty("age");
+      expect(northcoder.age).toEqual(30);
 
       northcoder = createNorthcoder("Ant", 1991);
-      expect(northcoder).to.haveOwnProperty("age");
-      expect(northcoder.age).to.equal(28);
+      expect(northcoder).hasOwnProperty("age");
+      expect(northcoder.age).toEqual(28);
     });
     it("returns an object with a 'language' property set to JavaScript", () => {
       const northcoder = createNorthcoder("Mauro", 1989);
-      expect(northcoder).to.haveOwnProperty("language");
-      expect(northcoder.language).to.equal("JavaScript");
+      expect(northcoder).hasOwnProperty("language");
+      expect(northcoder.language).toEqual("JavaScript");
     });
   });
 
@@ -539,8 +539,8 @@ describe("types", () => {
       };
       updateVoterAddress(mitch, 10);
       updateVoterAddress(alex, 23);
-      expect(mitch.address.houseNumber).to.equal(10);
-      expect(alex.address.houseNumber).to.equal(23);
+      expect(mitch.address.houseNumber).toEqual(10);
+      expect(alex.address.houseNumber).toEqual(23);
     });
   });
 
@@ -548,27 +548,26 @@ describe("types", () => {
     it('returns a string containing "name : <user\'s name>"', () => {
       const mitch = { name: "Mitch", age: 27, language: "Javascript" };
       const actual = createUserString(mitch);
-      expect(actual.includes("name: Mitch")).to.be.true;
+      expect(actual.includes("name: Mitch")).toBe(true)
     });
     it('returns a string containing "age : <user\'s age>"', () => {
       const mitch = { name: "Mitch", age: 27, language: "Javascript" };
       const actual = createUserString(mitch);
-      expect(actual.includes("age: 27")).to.be.true;
+      expect(actual.includes("age: 27")).toBe(true)
     });
     it('returns a string containing "language : <user\'s language>"', () => {
       const mitch = { name: "Mitch", age: 27, language: "Javascript" };
       const actual = createUserString(mitch);
-      expect(actual.includes("language: Javascript")).to.be.true;
+      expect(actual.includes("language: Javascript")).toBe(true)
     });
     it("returns a whole string with all of the user's details", () => {
       const mitch = { name: "Mitch", age: 27, language: "Javascript" };
       let actual = createUserString(mitch);
-      expect(actual.includes("name: Mitch, age: 27, language: Javascript")).to
-        .be.true;
+      expect(actual.includes("name: Mitch, age: 27, language: Javascript")).toBe(true)
 
       const ant = { name: "Ant", age: 28, language: "Java" };
       actual = createUserString(ant);
-      expect(actual.includes("name: Ant, age: 28, language: Java")).to.be.true;
+      expect(actual.includes("name: Ant, age: 28, language: Java")).toBe(true)
     });
   });
 
@@ -577,13 +576,13 @@ describe("types", () => {
       const northcoders = [];
       const actual = getNorthcodersNames(northcoders);
       const expected = [];
-      expect(actual).to.deep.equal(expected);
+      expect(actual).toEqual(expected);
     });
     it("returns an array of one name when given a list containing only one northcoder", () => {
       const northcoders = [{ name: "Mitch", age: 27, language: "Javascript" }];
       const actual = getNorthcodersNames(northcoders);
       const expected = ["Mitch"];
-      expect(actual).to.deep.equal(expected);
+      expect(actual).toEqual(expected);
     });
     it("returns all the names of all the northcoders", () => {
       const northcoders = [
@@ -594,7 +593,7 @@ describe("types", () => {
       ];
       const actual = getNorthcodersNames(northcoders);
       const expected = ["Mitch", "Ant", "Natalia", "Foluso"];
-      expect(actual).to.deep.equal(expected);
+      expect(actual).toEqual(expected);
     });
   });
 
@@ -607,7 +606,7 @@ describe("types", () => {
       };
       const actual = getAlbumProperties(input);
       const expected = ["title", "yearReleased", "producer"];
-      expect(actual).to.eql(expected);
+      expect(actual).toEqual(expected);
     });
   });
 
@@ -619,26 +618,26 @@ describe("types", () => {
           { name: "Sandeep", password: "ilovecoffee" },
           { name: "Kavita", password: "ilovepie" }
         ])
-      ).to.eql([{ name: "Barry" }, { name: "Sandeep" }, { name: "Kavita" }]);
+      ).toEqual([{ name: "Barry" }, { name: "Sandeep" }, { name: "Kavita" }]);
       expect(
         deleteManyPasswords([
           { name: "Carmen", password: "ilovetea" },
           { name: "Lisa", password: "ilovepie" }
         ])
-      ).to.eql([{ name: "Carmen" }, { name: "Lisa" }]);
+      ).toEqual([{ name: "Carmen" }, { name: "Lisa" }]);
     });
   });
 
   describe("countTheObjects", function() {
     it("returns the count of objects inside an array of random data types", function() {
-      expect(countTheObjects([])).to.equal(0);
-      expect(countTheObjects([1, 3, 4, 5])).to.equal(0);
-      expect(countTheObjects([1, 3, 4, 5, "foo"])).to.equal(0);
-      expect(countTheObjects([1, 3, 4, 5, {}, {}, {}, "foo"])).to.equal(3);
-      expect(countTheObjects([1, [], 3, 4, 5, {}, {}, {}, "foo"])).to.equal(3);
+      expect(countTheObjects([])).toEqual(0);
+      expect(countTheObjects([1, 3, 4, 5])).toEqual(0);
+      expect(countTheObjects([1, 3, 4, 5, "foo"])).toEqual(0);
+      expect(countTheObjects([1, 3, 4, 5, {}, {}, {}, "foo"])).toEqual(3);
+      expect(countTheObjects([1, [], 3, 4, 5, {}, {}, {}, "foo"])).toEqual(3);
       expect(
         countTheObjects([1, [], null, 3, 4, 5, {}, {}, {}, "foo"])
-      ).to.equal(3);
+      ).toEqual(3);
       expect(
         countTheObjects([
           1,
@@ -655,7 +654,7 @@ describe("types", () => {
           {},
           "foo"
         ])
-      ).to.equal(4);
+      ).toEqual(4);
     });
   });
 });
