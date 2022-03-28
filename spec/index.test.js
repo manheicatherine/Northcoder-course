@@ -43,6 +43,7 @@ const {
 } = require("../challenges");
 
 describe("types", () => {
+  // MATHS
   describe("Basic Maths", () => {
     it("mod returns the remainder of dividing a by b", () => {
       expect(modulo(4, 2)).toEqual(0);
@@ -87,6 +88,9 @@ describe("types", () => {
     });
   });
 
+
+
+  // STRINGS
   describe("getLength", () => {
     it("returns the length of the passed string", () => {
       expect(getLength("")).toEqual(0);
@@ -163,6 +167,9 @@ describe("types", () => {
     });
   });
 
+
+
+  //BOOLEANS/CONDITIONAL LOGIC
   describe("areValuesEqual", () => {
     it("returns true if passed values are equal", () => {
       expect(areValuesEqual(1, 1)).toEqual(true);
@@ -233,6 +240,8 @@ describe("types", () => {
     });
   });
 
+
+  //ARRAYS
   describe("getEvenNumbers", () => {
     it("returns an array of all even numbers in the passed array", () => {
       expect(getEvenNumbers([1, 2, 3])).toEqual([2]);
@@ -366,6 +375,9 @@ describe("types", () => {
     });
   });
 
+
+
+  // OBJECTS
   describe("isOver40", function() {
     it("returns true if the user is over 40", function() {
       expect(isOver40({ age: 55 })).toBe(true)
