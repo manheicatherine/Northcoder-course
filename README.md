@@ -84,6 +84,7 @@ Please watch [these 5 videos by Michael Starbird](https://www.youtube.com/playli
 If you haven't already done so, please work through some of the [Algorithm Challenges on FreeCodeCamp](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-algorithm-scripting). All of the problems in this chapter are excellent practice - we recommend trying to solve 5 of them as a minimum.
 
 - problem solving folder - refactor katas - find the error katas
+- ^^^ intro to these
 
 ## Codewars/ADVANCED KATAS
 

@@ -1,5 +1,7 @@
 /*
 
+- Intro to this section
+
     x 3 
 
     What would we want people to learn about error-spotting?
@@ -12,9 +14,17 @@
     - strict equality and loose equality
     - incorrect if statements
     - broken for loop (stop condition)
-    - spelling mistakes
+    - spelling mistakes ✅
     - return in wrong place
     - wrong method on wrong data type
     - block scoping issues
     
 */
+
+function getFirstItem(arr) {
+  const firstItem = arr[0];
+
+  return firstitem;
+}
+
+module.exports = { getFirstItem };
