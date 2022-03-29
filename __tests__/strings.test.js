@@ -7,6 +7,7 @@ const {
   getLastWord,
   hyphenateWords,
   convertToCamelCase,
+  passwordValidation,
 } = require('../challenges/katas/3-strings');
 
 describe('getLength', () => {
@@ -78,5 +79,20 @@ describe('convertToCamelCase', () => {
     expect(convertToCamelCase('I start lower cased')).toEqual(
       'iStartLowerCased',
     );
+  });
+});
+
+describe.only('passwordValidation', () => {
+  it("returns 'invalid' for password not containing 'n', 'c', or ending with '1'", () => {
+    expect(passwordValidation('poonam1')).toBe('invalid');
+    expect(passwordValidation('password')).toBe('invalid');
+    expect(passwordValidation('northcoders')).toBe('invalid');
+    expect(passwordValidation('javascript1')).toBe('invalid');
+  });
+  it("returns 'valid' for valid passwords", () => {
+    expect(passwordValidation('northcoders1')).toBe('valid');
+    expect(passwordValidation('christian1')).toBe('valid');
+    expect(passwordValidation('PaulCopleyNC1')).toBe('valid');
+    expect(passwordValidation('concreteSafePassword1')).toBe('valid');
   });
 });

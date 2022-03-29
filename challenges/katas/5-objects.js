@@ -30,7 +30,7 @@ function getUserPetAge(user) {
 function createProduct() {
   /*
     This function should return an object with a type property and a price property. The value for type can be any string, and the value for price should be a number.
-    */
+  */
 }
 
 function addPriceToProduct(product, price) {

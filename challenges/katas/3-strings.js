@@ -36,6 +36,18 @@ function convertToCamelCase(words) {
   // camel case looks like this --> camelCaseLooksLikeThis
 }
 
+function passwordValidation(password) {
+  /*
+
+  Northcoders takes security very seriously. We have a VERY robust password criteria. 
+
+  Any password must include 'n' and 'c' (upper or lowercase) and must end with '1'.
+  
+  You need to design this function to check the password it is passed. If it fits all of the above criteria then you should return 'valid' else return 'invalid'.
+
+*/
+}
+
 module.exports = {
   getLength,
   putNamesTogether,
@@ -45,4 +57,5 @@ module.exports = {
   getLastWord,
   hyphenateWords,
   convertToCamelCase,
+  passwordValidation,
 };

@@ -5,9 +5,11 @@ const {
   formatMoney,
   calculateCircleArea,
   calculateFullTurns,
+  findSmallestAndBiggest,
+  splitTheBeans,
 } = require('../challenges/katas/1-maths');
 
-describe.only('Basic Maths', () => {
+describe('Basic Maths', () => {
   it('mod returns the remainder of dividing a by b', () => {
     expect(modulo(4, 2)).toEqual(0);
     expect(modulo(7, 2)).toEqual(1);
@@ -48,5 +50,24 @@ describe('calculateFullTurns', () => {
     expect(calculateFullTurns(363)).toEqual(1);
     expect(calculateFullTurns(800)).toEqual(2);
     expect(calculateFullTurns(2000)).toEqual(5);
+  });
+});
+
+describe('findSmallestAndBiggest', () => {
+  it('returns smallest and biggest number in an array', () => {
+    expect(findSmallestAndBiggest([1, 2, 3, 4, 5])).toEqual([1, 5]);
+    expect(findSmallestAndBiggest([12, 500, 43, 2, -5])).toEqual([-5, 500]);
+    expect(findSmallestAndBiggest([65, 300])).toEqual([65, 300]);
+  });
+});
+
+describe('splitTheBeans', () => {
+  it('returns the average cost per person', () => {
+    expect(splitTheBeans(20, 4)).toBe(5);
+    expect(splitTheBeans(21, 7)).toBe(3);
+  });
+  it('returns average cost rounded up to nearest whole integer per person', () => {
+    expect(splitTheBeans(20, 9)).toBe(3);
+    expect(splitTheBeans(15, 2)).toBe(8);
   });
 });

@@ -35,6 +35,24 @@ function calculateFullTurns(degrees) {
   // 1 full turn === 360 degrees
 }
 
+function findSmallestAndBiggest(arr) {
+  // given an array, return a new array containing the smallest and biggest values of the original array.
+}
+
+function splitTheBeans(totalCost, numOfPeople) {
+  /* 
+  
+  The Northcoders staff have gone for a coffee run and they are all bad at maths. 
+  
+  You are given the total cost of the coffee order (in pounds) and the number of people the cost needs to be split between.
+
+  Return the cost per person.
+
+  Note: The Northcoders staff only have whole pound coins. So the cost per person needs to be to the nearest pound coin (we'll give it as a tip!).
+
+  */
+}
+
 module.exports = {
   modulo,
   squareRoot,
@@ -42,4 +60,6 @@ module.exports = {
   formatMoney,
   calculateCircleArea,
   calculateFullTurns,
+  findSmallestAndBiggest,
+  splitTheBeans,
 };
