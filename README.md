@@ -96,7 +96,6 @@ Here are some recommended Codewars katas to get you started.
 - [Miles per gallon to kilometers per liter](http://www.codewars.com/kata/miles-per-gallon-to-kilometers-per-liter)
 - [Find nth Digit](http://www.codewars.com/kata/find-the-nth-digit-of-a-number)
 - [Are the numbers in order?](http://www.codewars.com/kata/are-the-numbers-in-order)
-- [Get the Middle Character](http://www.codewars.com/kata/get-the-middle-character)
 - [Removing Elements](http://www.codewars.com/kata/removing-elements)
 - [Initialize my name](http://www.codewars.com/kata/initialize-my-name)
 - [Needle in a Haystack](http://www.codewars.com/kata/a-needle-in-the-haystack)
