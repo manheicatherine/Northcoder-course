@@ -7,9 +7,8 @@ const {
   getLastWord,
   hyphenateWords,
   convertToCamelCase,
-} = require('../challenges/katas/strings');
+} = require('../challenges/katas/3-strings');
 
-// STRINGS
 describe('getLength', () => {
   it('returns the length of the passed string', () => {
     expect(getLength('')).toEqual(0);

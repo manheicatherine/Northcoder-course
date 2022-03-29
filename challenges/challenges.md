@@ -1,4 +1,4 @@
-### Challenges
+# Challenges
 
 The challenges attached to this section are designed to test your coding ability and help you build familiarity with the environment you will be using every day on the course.
 
@@ -14,23 +14,30 @@ Please note that the arrangement of the files has changed a bit since we recorde
 
 [Pushing and committing your code](https://youtu.be/WkZvpDnphqE)
 
+### Instructions
+
 1. Check you `cd` into the root of this repository. _Hint: if you use the command `pwd` in your terminal the path returned should end in `PRE-1`._
 
 2. Run `npm install` in your terminal. Don't worry about any 'vulnerabilities' messages you might see e.g. `2 moderate severity vulnerabilities`. There's **no need** to run `npm audit fix` like the terminal might suggest.
 
-3. Run `npm test` in your terminal to see the test suite. You will see lots of red - that's good!
-<!-- how to test specific files -->
+3. Run `npm test` in your terminal to see the test suite. You will see lots of red - that's good! - `npm test` by default will run all of the files in the **tests** folder.
 
-<!-- --ORDER?? 🚩🚩🚩🚩🚩🚩 -->
+4. In your katas folder you will see a number of files. Each file contains a range of katas focusing on one fundamental JavaScript theme. We recommend that you attempt the challenges in the suggested order. If you feel less confident in one area than you do in others, we would recommend that you spend more time on those trickier concepts.
+   Suggested order:
 
-4. Open the index.js file within the challenges folder in VS Code and begin solving them.
+- 1-maths.js
+- 2-conditional-logic.js
+- 3-strings.js
+- 4-arrays.js
+- 5-objects.js
 
-5. Run the test suite regularly using `npm test` to see how you are doing.
+5. Run the test suite regularly using `npm test` to see how you are doing. - If you look at the **tests** folder we have more than one test file. We would encourage you going forward to only run the tests on the specific katas you are working on. Each set of katas has a corresponding test file e.g `maths.js > maths.test.js`.
+   To run a specific test file you can append the `npm test` command with the specific file you wish to run. To run the maths test file you would run the command `npm test maths.test.js`
 
-6. If you stall on one problem and want to move on, you'll find that the tests will end at the last incorrect challenge. To allow the test suite to move on, open the index.spec.js file in the spec folder. Find the describe block for the function you are currently writing, and place an x before it, like this:
+6. It is possible to further narrow down which kata you would like to run tests for. We can append `.only` to a `describe` block and Jest will only run that describe block and the tests within it. See below for an example -
 
 ```js
-xdescribe('getLastWord', () => {
+describe.only('getLastWord', () => {
   it('returns the last word of the passed sentence', () => {
     expect(getLastWord('hello')).to.equal('hello');
     //etc
@@ -38,8 +45,10 @@ xdescribe('getLastWord', () => {
 });
 ```
 
-This will allow the test suite to skip over it and it will list as 'pending' in your terminal on running `npm test`.
+If you have any describe blocks with a .only appended, the test suite will only run those tests. All other tests will be skipped.  
+_HINT: Remember to name the specific file in your `npm test` command._
 
-7. Practice using git from the command line by adding and committing your work frequently as you work through the exercises. When you solve a problem, make a commit.
+7. Practice using git from the command line by adding and committing your code frequently as you work through the exercises. When you solve a problem, make a commit.
 
 8. If you're having difficulties, you can post on the 'precourse' Slack channel - we'll try to get back to you as soon as possible, and there's usually some helpful current / former / upcoming students with useful advice too :)
+

@@ -4,9 +4,9 @@ const {
   isFromThe60s,
   isEvenLength,
   areStringsEqualCaseInsensitive,
-} = require('../challenges/katas/conditional-logic');
+} = require('../challenges/katas/2-conditional-logic');
 
-//BOOLEANS/CONDITIONAL LOGIC
+
 describe('areValuesEqual', () => {
   it('returns true if passed values are equal', () => {
     expect(areValuesEqual(1, 1)).toEqual(true);

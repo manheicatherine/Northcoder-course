@@ -5,10 +5,9 @@ const {
   formatMoney,
   calculateCircleArea,
   calculateFullTurns,
-} = require('../challenges/katas/maths');
+} = require('../challenges/katas/1-maths');
 
-// MATHS
-describe('Basic Maths', () => {
+describe.only('Basic Maths', () => {
   it('mod returns the remainder of dividing a by b', () => {
     expect(modulo(4, 2)).toEqual(0);
     expect(modulo(7, 2)).toEqual(1);

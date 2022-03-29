@@ -7,9 +7,9 @@ const {
   mergeArrays,
   flattenArrayByOne,
   isItemOmnipresent,
-} = require('../challenges/katas/arrays');
+} = require('../challenges/katas/4-arrays');
 
-//ARRAYS
+
 describe('getEvenNumbers', () => {
   it('returns an array of all even numbers in the passed array', () => {
     expect(getEvenNumbers([1, 2, 3])).toEqual([2]);

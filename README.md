@@ -83,7 +83,11 @@ Please watch [these 5 videos by Michael Starbird](https://www.youtube.com/playli
 
 If you haven't already done so, please work through some of the [Algorithm Challenges on FreeCodeCamp](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-algorithm-scripting). All of the problems in this chapter are excellent practice - we recommend trying to solve 5 of them as a minimum.
 
-## Codewars
+- problem solving folder 
+      - refactor katas
+      - find the error katas
+
+## Codewars/ADVANCED KATAS
 
 There are lots of sites that offer katas (self-contained coding problems) for you to sharpen your problem-solving skills. One of the most important things you can do is get as much practice problem-solving with JavaScript as possible.
 
