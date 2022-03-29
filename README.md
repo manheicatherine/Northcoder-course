@@ -1,16 +1,14 @@
 # Precourse Section 1
 
-Well done on passing your entry challenge and taking your first steps towards the Northcoders Bootcamp! 🎉
+Congratulations on passing your entry challenge and taking your first steps towards the Northcoders Bootcamp! 🎉
 
--- reminder to finish this before the course
--- follow this readme in order 
--- timeframe?
--- intro
--- signpost to challenges
+You must finish PRE-1 before moving on to PRE-2 and PRE-3. We'd like you to have completed at least PRE-1 before starting the coding bootcamp.
 
-While you complete your precourse we encourage you to attend our regular drop-in sessions and make use of the 'precourse' Slack channel (if you haven't received an invite let us know). PEOPLE THERE TO HELP
+Please follow this README in order. PRE-1 contains a mixture of videos, reading material and challenges covering fundamental skills that we expect you to be comfortable with when you begin the bootcamp.
 
-### The Command Line
+While you complete your precourse we encourage you to attend our regular drop-in sessions and make use of the 'precourse' Slack channel (if you haven't received an invite let us know). In this channel, you'll find people who are completing the precourse just like you, people who have already completed it and tutors - a community to ask any and all questions to.
+
+## The Command Line
 
 Please read [this article](http://learntocodewith.me/getting-started/topics/command-line/) that explains why we use the command line.
 
@@ -25,7 +23,7 @@ Print out or bookmark this [cheat sheet](https://www.git-tower.com/blog/command-
 
 From now on, try to **always** use your terminal program (iTerm, Terminator or git bash) to navigate around your computer, make, move, copy or remove files and folders.
 
-### Git / Github
+## Git / Github
 
 Github is a website and cloud-based service we can use to manage our code. On our local machines, we use git version control to track changes we make.
 
@@ -37,9 +35,19 @@ For a basic introduction to git and Github, please watch videos 1-7 of [this pla
 
 Try out git yourself by following the GitHub Learning Lab course [here](https://lab.github.com/githubtraining/introduction-to-github).
 
-You will need to use git to download this repository so that you can work on the challenges!
+### Fork and Clone this Repository
 
-### Basic Skills
+You should now use git to download this repository so that you can work on the challenges on your local machine!
+
+Here's a tutorial on how to fork and clone this repo from Github: [Forking and cloning the project](https://youtu.be/QxvgzQFmOJE)
+
+1. Fork and clone this repository.
+
+2. Open this repository in VSCode.
+
+3. Continue reading this README on your local machine.
+
+## Basic Skills
 
 You've probably already shown in your Entry Challenge that you can demonstrate the below skills, but make sure you are absolutely confident with them as they will underpin everything you do in this Precourse, in JavaScript and beyond.
 
@@ -52,9 +60,7 @@ You've probably already shown in your Entry Challenge that you can demonstrate t
 - Execute a function with parameters
 - Log values to the console
 
-
-
-### Coding Style
+## Coding Style
 
 It's important our code is easy to read and well laid out. As well as helping other people, it also makes our life easier when we go back and read our code over at a later date.
 
@@ -63,12 +69,13 @@ https://javascript.info/coding-style
 
 Always be asking yourself 'if I was to take away the question and any comments, can someone still understand what my code is doing?'
 
-### Challenges 
+## Challenges
 
--- GO TO CHALLENGES.MD
---ORDER??
+We have supplied you with a folder of challenges for you to complete. The style of these katas should be familiar to you after the katas you've completed running up to and including your entry challenge.
 
-### Problem Solving
+To start this section you will need to read through the `challenges.md` file within the challenges folder. In this file, you'll find instructions on how to complete these challenges.
+
+## Problem Solving
 
 Problem solving is the number one skill that employers in the tech sector value - good problem solvers are able to work in any language, technology or situation.
 
@@ -76,7 +83,7 @@ Please watch [these 5 videos by Michael Starbird](https://www.youtube.com/playli
 
 If you haven't already done so, please work through some of the [Algorithm Challenges on FreeCodeCamp](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-algorithm-scripting). All of the problems in this chapter are excellent practice - we recommend trying to solve 5 of them as a minimum.
 
-### Codewars
+## Codewars
 
 There are lots of sites that offer katas (self-contained coding problems) for you to sharpen your problem-solving skills. One of the most important things you can do is get as much practice problem-solving with JavaScript as possible.
 
@@ -110,10 +117,3 @@ Here are a few useful methods to get you started:
 - [slice](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/slice)
 - [indexOf](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Array/indexOf)
 - [toFixed](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/toFixed)
-
-
-
-
-
-
-
