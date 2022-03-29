@@ -83,9 +83,7 @@ Please watch [these 5 videos by Michael Starbird](https://www.youtube.com/playli
 
 If you haven't already done so, please work through some of the [Algorithm Challenges on FreeCodeCamp](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-algorithm-scripting). All of the problems in this chapter are excellent practice - we recommend trying to solve 5 of them as a minimum.
 
-- problem solving folder 
-      - refactor katas
-      - find the error katas
+- problem solving folder - refactor katas - find the error katas
 
 ## Codewars/ADVANCED KATAS
 
@@ -95,7 +93,6 @@ Create an account on [Codewars](http://www.codewars.com/r/LwRQbA) and message us
 
 Here are some recommended Codewars katas to get you started.
 
-- [Max and Min Values](http://www.codewars.com/kata/find-maximum-and-minimum-values-of-a-list)
 - [Miles per gallon to kilometers per liter](http://www.codewars.com/kata/miles-per-gallon-to-kilometers-per-liter)
 - [Find nth Digit](http://www.codewars.com/kata/find-the-nth-digit-of-a-number)
 - [Are the numbers in order?](http://www.codewars.com/kata/are-the-numbers-in-order)
@@ -121,3 +118,5 @@ Here are a few useful methods to get you started:
 - [slice](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/slice)
 - [indexOf](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Array/indexOf)
 - [toFixed](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/toFixed)
+
+// Miles per gallon to kilometers per liter https://www.codewars.com/kata/557b5e0bddf29d861400005d/solutions/javascript/me/best_practice >> advanced vibes
