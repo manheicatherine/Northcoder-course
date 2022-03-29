@@ -8,27 +8,26 @@ These videos show the workflow required to get and solve the final challenges. T
 
 <!-- 🚩 We will need to re-record these videos (github out of date/repo might look different) 👇🏽 -->
 
-[Forking and cloning the project](https://youtu.be/QxvgzQFmOJE)
-
 [Solving a problem](https://youtu.be/8r2DrCwKPRY)
 
 Please note that the arrangement of the files has changed a bit since we recorded this video. Follow the guide below when ensuring you are in the right directory to run `npm install` and `npm test`.
 
 [Pushing and committing your code](https://youtu.be/WkZvpDnphqE)
 
-1. Fork and clone this repository as seen in the video below.
+1. Check you `cd` into the root of this repository. _Hint: if you use the command `pwd` in your terminal the path returned should end in `PRE-1`._
 
-2. `cd` into the repository.
+2. Run `npm install` in your terminal. Don't worry about any 'vulnerabilities' messages you might see e.g. `2 moderate severity vulnerabilities`. There's **no need** to run `npm audit fix` like the terminal might suggest.
 
-3. Run `npm install` in your terminal. Don't worry about 'vulnerabilities' messages you might see e.g. `2 moderate severity vulnerabilities`. There's **no need** to run `npm audit fix` like the terminal might suggest.
+3. Run `npm test` in your terminal to see the test suite. You will see lots of red - that's good!
+<!-- how to test specific files -->
 
-4. Run `npm test` in your terminal to see the test suite. You will see lots of red - that's good!
+<!-- --ORDER?? 🚩🚩🚩🚩🚩🚩 -->
 
-5. Open the index.js file within the challenges folder in VS Code and begin solving them.
+4. Open the index.js file within the challenges folder in VS Code and begin solving them.
 
-6. Run the test suite regularly using `npm test` to see how you are doing.
+5. Run the test suite regularly using `npm test` to see how you are doing.
 
-7. If you stall on one problem and want to move on, you'll find that the tests will end at the last incorrect challenge. To allow the test suite to move on, open the index.spec.js file in the spec folder. Find the describe block for the function you are currently writing, and place an x before it, like this:
+6. If you stall on one problem and want to move on, you'll find that the tests will end at the last incorrect challenge. To allow the test suite to move on, open the index.spec.js file in the spec folder. Find the describe block for the function you are currently writing, and place an x before it, like this:
 
 ```js
 xdescribe('getLastWord', () => {
@@ -41,6 +40,6 @@ xdescribe('getLastWord', () => {
 
 This will allow the test suite to skip over it and it will list as 'pending' in your terminal on running `npm test`.
 
-8. Practice using git from the command line by adding and committing your work frequently as you work through the exercises. When you solve a problem, make a commit.
+7. Practice using git from the command line by adding and committing your work frequently as you work through the exercises. When you solve a problem, make a commit.
 
-9. If you're having difficulties, you can post on the 'precourse' Slack channel - we'll try to get back to you as soon as possible, and there's usually some helpful current / former / upcoming students with useful advice too :)
+8. If you're having difficulties, you can post on the 'precourse' Slack channel - we'll try to get back to you as soon as possible, and there's usually some helpful current / former / upcoming students with useful advice too :)
