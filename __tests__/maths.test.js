@@ -5,7 +5,7 @@ const {
   formatMoney,
   calculateCircleArea,
   calculateFullTurns,
-} = require('../challenges/index-solved');
+} = require('../challenges/katas/maths');
 
 // MATHS
 describe('Basic Maths', () => {

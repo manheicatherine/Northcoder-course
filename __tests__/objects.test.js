@@ -13,7 +13,7 @@ const {
   getAlbumProperties,
   deleteManyPasswords,
   countTheObjects,
-} = require('../challenges/index-solved');
+} = require('../challenges/katas/objects');
 
 // OBJECTS
 describe('isOver40', function () {

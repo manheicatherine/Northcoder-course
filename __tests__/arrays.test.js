@@ -7,7 +7,7 @@ const {
   mergeArrays,
   flattenArrayByOne,
   isItemOmnipresent,
-} = require('../challenges/index-solved');
+} = require('../challenges/katas/arrays');
 
 //ARRAYS
 describe('getEvenNumbers', () => {

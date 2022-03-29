@@ -7,7 +7,7 @@ const {
   getLastWord,
   hyphenateWords,
   convertToCamelCase,
-} = require('../challenges/index-solved');
+} = require('../challenges/katas/strings');
 
 // STRINGS
 describe('getLength', () => {

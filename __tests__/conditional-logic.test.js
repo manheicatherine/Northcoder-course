@@ -4,7 +4,7 @@ const {
   isFromThe60s,
   isEvenLength,
   areStringsEqualCaseInsensitive,
-} = require('../challenges/index-solved');
+} = require('../challenges/katas/conditional-logic');
 
 //BOOLEANS/CONDITIONAL LOGIC
 describe('areValuesEqual', () => {
