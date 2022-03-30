@@ -8,7 +8,7 @@ Please follow this README in order. PRE-1 contains a mixture of videos, reading 
 
 While you complete your precourse we encourage you to attend our regular drop-in sessions and make use of the 'precourse' Slack channel (if you haven't received an invite let us know). In this channel, you'll find people who are completing the precourse just like you, people who have already completed it and tutors - a community to ask any and all questions to.
 
-## The Command Line
+## 1. The Command Line
 
 Please read [this article](http://learntocodewith.me/getting-started/topics/command-line/) that explains why we use the command line.
 
@@ -23,7 +23,7 @@ Print out or bookmark this [cheat sheet](https://www.git-tower.com/blog/command-
 
 From now on, try to **always** use your terminal program (iTerm, Terminator or git bash) to navigate around your computer, make, move, copy or remove files and folders.
 
-## Git / Github
+## 2. Git / Github
 
 Github is a website and cloud-based service we can use to manage our code. On our local machines, we use git version control to track changes we make.
 
@@ -35,7 +35,7 @@ For a basic introduction to git and Github, please watch videos 1-7 of [this pla
 
 Try out git yourself by following the GitHub Learning Lab course [here](https://lab.github.com/githubtraining/introduction-to-github).
 
-### Fork and Clone this Repository
+### 2a. Fork and Clone this Repository
 
 You should now use git to download this repository so that you can work on the challenges on your local machine!
 
@@ -47,7 +47,7 @@ Here's a tutorial on how to fork and clone this repo from Github: [Forking and c
 
 3. Continue reading this README on your local machine.
 
-## Basic Skills
+## 3. Basic Skills
 
 You've probably already shown in your Entry Challenge that you can demonstrate the below skills, but make sure you are absolutely confident with them as they will underpin everything you do in this Precourse, in JavaScript and beyond.
 
@@ -60,7 +60,7 @@ You've probably already shown in your Entry Challenge that you can demonstrate t
 - Execute a function with parameters
 - Log values to the console
 
-## Coding Style
+## 4. Coding Style
 
 It's important our code is easy to read and well laid out. As well as helping other people, it also makes our life easier when we go back and read our code over at a later date.
 
@@ -69,24 +69,29 @@ https://javascript.info/coding-style
 
 Always be asking yourself 'if I was to take away the question and any comments, can someone still understand what my code is doing?'
 
-## Challenges
+## 5. Challenges
 
 We have supplied you with a folder of challenges for you to complete. The style of these katas should be familiar to you after the katas you've completed running up to and including your entry challenge.
 
 To start this section you will need to read through the `challenges.md` file within the challenges folder. In this file, you'll find instructions on how to complete these challenges.
 
-## Problem Solving
+## 6. Problem Solving
 
 Problem solving is the number one skill that employers in the tech sector value - good problem solvers are able to work in any language, technology or situation.
 
 Please watch [these 5 videos by Michael Starbird](https://www.youtube.com/playlist?list=PLEo7ej2RhHszJy_77UXC8GJpb8LtW-dJT). The first two in particular really resonate with the Northcoders philosophy. Try to apply what you have learnt in these videos to the next coding problems you encounter.
 
+
+// MAYBE MOVE AFTER PROBLEM SOLVING FOLDER? OR LEAVE? --------<<<<>>>>--------
 If you haven't already done so, please work through some of the [Algorithm Challenges on FreeCodeCamp](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-algorithm-scripting). All of the problems in this chapter are excellent practice - we recommend trying to solve 5 of them as a minimum.
+
+Now we want you to look at some existing katas from a problem solving perspective. You will be asked to do a mixture of fixing katas or refactoring them to use higher order functions.
+Navigate to the problem-solving folder and open [problem-solving.md](problem-solving/problem-solving.md) for your next steps.
 
 - problem solving folder - refactor katas - find the error katas
 - ^^^ intro to these
 
-## Codewars/ADVANCED KATAS
+## 7. Codewars/ADVANCED KATAS
 
 There are lots of sites that offer katas (self-contained coding problems) for you to sharpen your problem-solving skills. One of the most important things you can do is get as much practice problem-solving with JavaScript as possible.
 

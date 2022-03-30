@@ -52,3 +52,5 @@ _HINT: Remember to name the specific file in your `npm test` command._
 
 8. If you're having difficulties, you can post on the 'precourse' Slack channel - we'll try to get back to you as soon as possible, and there's usually some helpful current / former / upcoming students with useful advice too :)
 
+9. Once you have completed all of the sections inside the challenges folder, refer back to the README in the root of this project for your next steps!
+
