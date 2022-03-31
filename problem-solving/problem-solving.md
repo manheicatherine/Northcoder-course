@@ -35,9 +35,6 @@ Using this information we can consider what our first steps may be in solving th
 _NOTE: You may notice this example has been flagged as a ReferenceError. If you would like to read more about the different types of error you may encounter, [this article](https://www.educative.io/edpresso/what-are-the-6-types-of-errors-in-javascript-codes) has a brief overview. However we will be going into errors and types in much more detail on the bootcamp._
 
 
-////JEST ERRORS????????
-
-
 ### TASK
 
 In [errors.js](./errors.js) there are a number of katas designed to help you improve your understanding of errors and how to fix them.
