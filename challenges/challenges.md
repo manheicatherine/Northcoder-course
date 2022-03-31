@@ -9,6 +9,7 @@ These videos show the workflow required to get and solve the final challenges. T
 <!-- 🚩 We will need to re-record these videos (github out of date/repo might look different) 👇🏽 -->
 
 [Solving a problem](https://youtu.be/8r2DrCwKPRY)
+// RE RECORD, 
 
 Please note that the arrangement of the files has changed a bit since we recorded this video. Follow the guide below when ensuring you are in the right directory to run `npm install` and `npm test`.
 
