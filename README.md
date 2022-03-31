@@ -73,7 +73,7 @@ Always be asking yourself 'if I was to take away the question and any comments, 
 
 We have supplied you with a folder of challenges for you to complete. The style of these katas should be familiar to you after the katas you've completed running up to and including your entry challenge.
 
-To start this section you will need to read through the `challenges.md` file within the challenges folder. In this file, you'll find instructions on how to complete these challenges.
+To start this section you will need to read through the [`challenges.md`](challenges/challenges.md) file within the challenges folder. In this file, you'll find instructions on how to complete these challenges.
 
 ## Problem Solving
 
