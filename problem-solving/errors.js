@@ -1,4 +1,4 @@
-// Work through these challenges in order, regularly running the tests, until they all pass!
+// Work through these challenges in order, regularly running the tests until they all pass!
 
 function getFirstItem(arr) {
   const firstItem = arr[0];
@@ -10,25 +10,39 @@ function splitString() {
   return string.split("")
 }
 
+function addBread(person, bread) {
+  
+  person['loaf'] = 'sourdough'
+  
+  return 
+}
 
-function countCharactersInString(string, character) {
-  let count = 0;
+function countTheChars(array, char) {
+  const count = 0;
   
   return count;
-  for (let i = 0; i < string.length; i++) {
-    if (string[i] === character) {
+  for (let i = 0; i < array; i++) {
+    if (array[i] == char) {
     }
     count++;
   }
 }
 
-function countWordsInSentence(sentence) {
-  const count = 0
+function addGuestsToParty(peopleArray) {
+const party = {
+  host: 'Paul Copley',
+  venue: 'Hatch', 
+  theme: 'Under the sea', 
+  guests: [{name: 'Rose'}, {name: 'Eli'}]
+}
 
-  for (let i = 0; i < sentence; i++) {
-    count++
+peopleArray.forEach((person) => {
+  if (person.RSVP){
+    party.push({'name': person.name})
   }
+})
 
+return party
 }
 
 
@@ -43,17 +57,18 @@ function countWordsInSentence(sentence) {
     - spelling mistakes ✅
     - missing parameter ✅
     - return in wrong place ✅
-    - consts for variables we want to reassign
+    - missing return ✅
+    - hard coding solutions over using variables (not using params) ✅
+    - incorrect key names with objects ✅
+    - block scoping issues ✅
+    - consts for variables we want to reassign ✅
+    - strict equality and loose equality ✅
+    - broken for loop (stop condition)✅
     - console logs that should be deleted?
-    - returning the wrong data type?
-    - incorrect key names with objects
-    - hard coding solutions over using variables (not using params)
-    - strict equality and loose equality
-    - incorrect if statements
-    - broken for loop (stop condition)
-    - wrong method on wrong data type
-    - block scoping issues
+    - returning the wrong data type? ✅
+    - incorrect if statements ✅
+    - wrong method on wrong data type ✅
     
 */
 
-module.exports = { getFirstItem, countCharactersInString, splitString, countWordsInSentence };
+module.exports = { getFirstItem, countTheChars, splitString, addBread, addGuestsToParty};
