@@ -7,19 +7,18 @@ function getFirstItem(arr) {
 }
 
 function splitString() {
-  return string.split("")
+  return string.split('');
 }
 
 function addBread(person, bread) {
-  
-  person['loaf'] = 'sourdough'
-  
-  return 
+  person['loaf'] = 'sourdough';
+
+  return;
 }
 
 function countTheChars(array, char) {
   const count = 0;
-  
+
   return count;
   for (let i = 0; i < array; i++) {
     if (array[i] == char) {
@@ -29,29 +28,23 @@ function countTheChars(array, char) {
 }
 
 function addGuestsToParty(peopleArray) {
-const party = {
-  host: 'Paul Copley',
-  venue: 'Hatch', 
-  theme: 'Under the sea', 
-  guests: [{name: 'Rose'}, {name: 'Eli'}]
+  const party = {
+    host: 'Paul Copley',
+    venue: 'Hatch',
+    theme: 'Under the sea',
+    guests: [{ name: 'Rose' }, { name: 'Eli' }],
+  };
+
+  peopleArray.forEach((person) => {
+    if (person.RSVP) {
+      party.push({ name: person.name });
+    }
+  });
+
+  return party;
 }
-
-peopleArray.forEach((person) => {
-  if (person.RSVP){
-    party.push({'name': person.name})
-  }
-})
-
-return party
-}
-
 
 /*
-
-- Intro to this section
-
-    x 3 
-
     What would we want people to learn about error-spotting?
     Are there common errors we'd want them to be familiar with?
     - spelling mistakes ✅
@@ -71,4 +64,10 @@ return party
     
 */
 
-module.exports = { getFirstItem, countTheChars, splitString, addBread, addGuestsToParty};
+module.exports = {
+  getFirstItem,
+  countTheChars,
+  splitString,
+  addBread,
+  addGuestsToParty,
+};
