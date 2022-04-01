@@ -63,6 +63,7 @@ Try out git yourself by following the GitHub Learning Lab course [here](https://
 You should now use git to download this repository so that you can work on the challenges on your local machine!
 
 Here's a tutorial on how to fork and clone this repo from Github: [Forking and cloning the project](https://youtu.be/QxvgzQFmOJE)
+<--- RE RECORD---->
 
 1. Fork and clone this repository.
 
@@ -112,8 +113,6 @@ Problem solving is the number one skill that employers in the tech sector value 
 
 Please watch [these 5 videos by Michael Starbird](https://www.youtube.com/playlist?list=PLEo7ej2RhHszJy_77UXC8GJpb8LtW-dJT). The first two in particular really resonate with the Northcoders philosophy. Try to apply what you have learnt in these videos to the next coding problems you encounter.
 
-<!-- // MAYBE MOVE AFTER PROBLEM SOLVING FOLDER? OR LEAVE? --------<<<<>>>>-------- -->
-
 If you haven't already done so, please work through some of the [Algorithm Challenges on FreeCodeCamp](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-algorithm-scripting). All of the problems in this chapter are excellent practice - we recommend trying to solve 5 of them as a minimum.
 
 ### TASK
@@ -148,7 +147,7 @@ Then watch [this video](https://www.youtube.com/watch?v=bCqtb-Z5YGQ&list=PL0zVEG
 
 ### TASK
 
-Now we want you to look at some existing katas from a functional programming perspective. You will be asked to refactor them using higher order functions.
+Now we want you to look at some existing katas from a functional programming perspective. You will be asked to refactor them and, where possible, use higher order functions.
 Navigate to the functional-programming folder and open [refactoring.md](functional-programming/refactoring.md) for your next steps.
 
 ---

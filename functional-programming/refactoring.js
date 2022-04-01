@@ -35,9 +35,23 @@ function isSweetEnough(foodArray) {
   return true;
 }
 
-// you can only use a map or a forEach this one - you figure out which one
+// TASK 4 
+// Refactor getExcited to use a string method. _Hint: Most of this code can be replaced with one method!_
 
-// TASK 4
+function getExcited(sentence){
+// getExcited changes all full stops in a sentence to an exclamation mark!
+  const sentenceArray = sentence.split('')
+  for (let i = 0; i < sentenceArray.length; i++) {
+    if (sentenceArray[i] === '.') {
+      sentenceArray[i] = '!'
+    }
+  }
+
+  return sentenceArray.join('')
+}
+
+
+// TASK 5
 // Refactor isShrekCharacter to use a higher order function and tidy up the code.
 
 function isShrekCharacter(characters) {
@@ -57,14 +71,12 @@ function isShrekCharacter(characters) {
 /*
   string methods:
   - repeat
-  - replace / replaceAll
-  - concat
   - endsWith
 
   For loop -> for...in (objects) or for...of (array) ✅ or forEach
 */
 
-// NOTE: Remember to remove any unused variables or console logs from the code.
+// NOTE: Remember to remove any unused variables or console logs from the code. Refactoring is also about readability, ensure variables are clearly named!
 
 // ---------- Do not change the code below this line --------------
-module.exports = { isSweetEnough, shoutNames, isShrekCharacter, tripleNums };
+module.exports = { isSweetEnough, shoutNames, isShrekCharacter, tripleNums, getExcited };

@@ -3,6 +3,7 @@ const {
   shoutNames,
   isShrekCharacter,
   tripleNums,
+  getExcited
 } = require('../functional-programming/refactoring');
 
 describe('tripleNums', () => {
@@ -51,6 +52,20 @@ describe('isSweetEnough', () => {
       { name: 'mince pie', flavour: 'sweet' },
     ];
     expect(isSweetEnough(foodArray)).toBe(false);
+  });
+});
+
+describe('getExcited', () => {
+  it('returns string with all full stops changed to exclamation marks', () => {
+    let sentence = 'Today is a great day.'
+    let expected = 'Today is a great day!'
+    expect(getExcited(sentence)).toBe(expected)
+    sentence = 'We\'re gonna need a bigger boat.'
+    expected = 'We\'re gonna need a bigger boat!'
+    expect(getExcited(sentence)).toBe(expected)
+    sentence = 'Woo. Woo. Woo. Who\'s ready to code?'
+    expected = 'Woo! Woo! Woo! Who\'s ready to code?'
+    expect(getExcited(sentence)).toBe(expected)
   });
 });
 
@@ -129,3 +144,4 @@ describe('isShrekCharacter', () => {
     expect(isShrekCharacter(characters)).toEqual(expected);
   });
 });
+
