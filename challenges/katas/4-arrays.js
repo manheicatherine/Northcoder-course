@@ -35,12 +35,8 @@ function isItemOmnipresent(arrayOfArrays, item) {
   // return true if the passed item is present in all the arrays inside arrayOfArrays
 }
 
-// array is in order https://www.codewars.com/kata/56b7f2f3f18876033f000307/solutions/javascript/me/best_practice
 
-// remove second element of arr https://www.codewars.com/kata/5769b3802ae6f8e4890009d2/solutions/javascript/me/best_practice
-
-// find something in the array https://www.codewars.com/kata/56676e8fabd2d1ff3000000c/javascript
-
+// ---------- Do not change the code below this line --------------
 module.exports = {
   getEvenNumbers,
   getItemsLongerThan,

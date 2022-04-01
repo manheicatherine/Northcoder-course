@@ -21,6 +21,7 @@ function areStringsEqualCaseInsensitive(left, right) {
   // return true if the passed strings are equal ignoring case
 }
 
+// ---------- Do not change the code below this line --------------
 module.exports = {
   areValuesEqual,
   areValuesNotEqual,

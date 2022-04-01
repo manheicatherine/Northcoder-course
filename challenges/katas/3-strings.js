@@ -48,6 +48,7 @@ function passwordValidation(password) {
 */
 }
 
+// ---------- Do not change the code below this line --------------
 module.exports = {
   getLength,
   putNamesTogether,

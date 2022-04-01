@@ -122,6 +122,7 @@ function countTheObjects(arr) {
     */
 }
 
+// ---------- Do not change the code below this line --------------
 module.exports = {
   isOver40,
   getUserAge,

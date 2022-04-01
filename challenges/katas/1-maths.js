@@ -53,6 +53,7 @@ function splitTheBeans(totalCost, numOfPeople) {
   */
 }
 
+// ---------- Do not change the code below this line --------------
 module.exports = {
   modulo,
   squareRoot,
