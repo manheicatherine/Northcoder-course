@@ -1,5 +1,7 @@
 # Precourse Section 1
 
+<!-- Could be renamed Javascript Precourse and HTML/CSS Precourse -->
+
 Congratulations on passing your entry challenge and taking your first steps towards the Northcoders Bootcamp! 🎉
 
 <!-- Moving PRE-3 content to PRE-2, merging PRE-2 with PRE-1 -->
@@ -8,7 +10,21 @@ You must finish PRE-1 before moving on to PRE-2. We'd like you to have completed
 
 Please follow this README in order. PRE-1 contains a mixture of videos, reading material and challenges covering fundamental skills that we expect you to be comfortable with when you begin the bootcamp.
 
+## Before you start
+
+### Remember we're here to help 👋🏽
+
 While you complete your precourse we encourage you to attend our regular drop-in sessions and make use of the 'precourse' Slack channel (if you haven't received an invite let us know). In this channel, you'll find people who are completing the precourse just like you, people who have already completed it and tutors - a community to ask any and all questions to.
+
+### Take Regular Breaks 🚰 🌳 🚶‍♂️
+
+There is a lot of work to get through in this repository and you're just one person.
+
+Remember to take regular screen breaks (5 - 10 minutes every hour at least) and get some fresh air if possible. Sitting in front of your screen for hours at a time is tiring and can often lead to 'brain fog', especially when tackling lots of challenges.
+
+### Be the tortoise, not the hare 🐢 🐰
+
+Take your time with this content. You're here to learn, it isn't a race to a finish line. Maybe try chipping away at this repo in small regular sessions.
 
 ---
 
