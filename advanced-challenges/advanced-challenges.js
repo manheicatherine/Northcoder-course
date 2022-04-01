@@ -147,6 +147,7 @@ function getWilliams(arr) {
   */
 }
 
+
 function getFactorials(nums) {
   /*
     This function takes an array of positive integers and returns an array of the factorials of these numbers.

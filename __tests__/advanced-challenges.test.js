@@ -77,8 +77,9 @@ describe('findFirstDentist', () => {
 
   it('returns a person object who is a dentist', () => {
     const dentist = { name: 'Orin Scrivello', isDentist: true };
-    expect(findFirstDentist([dentist])).to.have.keys(['name', 'isDentist']);
-    expect(findFirstDentist([dentist]).isDentist).to.be.true;
+    expect(findFirstDentist([dentist])).toHaveProperty('name');
+    expect(findFirstDentist([dentist])).toHaveProperty('isDentist');
+    expect(findFirstDentist([dentist]).isDentist).toBe(true)
   });
 
   it('returns the first dentist from the array', () => {
@@ -112,7 +113,7 @@ describe('tallyPeopleInManchester', () => {
           age: 32.5,
         },
       ]),
-    ).to.equal(0);
+    ).toEqual(0);
   });
   it('returns the length of the array when everyone is from Manchester', () => {
     expect(
@@ -128,7 +129,7 @@ describe('tallyPeopleInManchester', () => {
           age: 35.55,
         },
       ]),
-    ).to.equal(2);
+    ).toEqual(2);
   });
   it('returns the number of people who are actually from the proud, yet fairly miserable, city of Manchester', () => {
     expect(
@@ -168,7 +169,7 @@ describe('tallyPeopleInManchester', () => {
           age: 0.00000002,
         },
       ]),
-    ).to.equal(1);
+    ).toEqual(1);
   });
 });
 
@@ -176,7 +177,7 @@ describe('getPugOwners', () => {
   it('returns [] when passed []', () => {
     expect(getPugOwners([])).toEqual([]);
   });
-  it('returns an array of pug names when passed an array of dog objects', () => {
+  it('returns an array of owner names when passed an array of dog objects', () => {
     const dogs = [
       { name: 'Beatrice', breed: 'Lurcher', owner: 'Tom' },
       { name: 'Max', breed: 'Pug', owner: 'Izzi' },
@@ -215,8 +216,8 @@ describe('pluraliseKeys', () => {
       ],
     };
     const actual = pluraliseKeys(input);
-    expect(actual).not.toEqual(input);
-    expect(actual).to.be.an('object');
+    expect(actual).not.toBe(input);
+    expect(typeof actual).toBe('object');
   });
   it("returns an object with identical keys to the input when the input's keys do not need pluralising", () => {
     const input = {
@@ -312,65 +313,65 @@ describe('getPalindromes', () => {
 
 describe('replaceLettersWithXs', () => {
   it('replaces a single letter with a X', () => {
-    expect(replaceLettersWithXs('Z')).to.equal('X');
+    expect(replaceLettersWithXs('Z')).toEqual('X');
   });
   it('does not replace a non-letter character', () => {
-    expect(replaceLettersWithXs('~')).to.equal('~');
-    expect(replaceLettersWithXs('-')).to.equal('-');
+    expect(replaceLettersWithXs('~')).toEqual('~');
+    expect(replaceLettersWithXs('-')).toEqual('-');
   });
   it('replaces sentences with Xs as appropriate', () => {
-    expect(replaceLettersWithXs('I like Alan')).to.equal('X XXXX XXXX');
-    expect(replaceLettersWithXs("Don't you?")).to.equal("XXX'X XXX?");
+    expect(replaceLettersWithXs('I like Alan')).toEqual('X XXXX XXXX');
+    expect(replaceLettersWithXs("Don't you?")).toEqual("XXX'X XXX?");
   });
 });
 
 describe('validMobileNumber', () => {
   it('returns false when passed a string of the wrong length', () => {
-    expect(validMobileNumber('123')).to.equal(false);
-    expect(validMobileNumber('0750617250638')).to.equal(false);
-    expect(validMobileNumber('+447712368768724988')).to.equal(false);
+    expect(validMobileNumber('123')).toEqual(false);
+    expect(validMobileNumber('0750617250638')).toEqual(false);
+    expect(validMobileNumber('+447712368768724988')).toEqual(false);
   });
   it('returns true when passed a valid plain phone num string', () => {
-    expect(validMobileNumber('07506172506')).to.equal(true);
+    expect(validMobileNumber('07506172506')).toEqual(true);
   });
   it('returns true when passed a valid string with a + prefix', () => {
-    expect(validMobileNumber('+447506172506')).to.equal(true);
+    expect(validMobileNumber('+447506172506')).toEqual(true);
   });
   it('returns true when passed a valid international phone num', () => {
-    expect(validMobileNumber('00447506172506')).to.equal(true);
+    expect(validMobileNumber('00447506172506')).toEqual(true);
   });
   it('returns false when passed a string with invalid chars', () => {
-    expect(validMobileNumber('07506189foo')).to.equal(false);
+    expect(validMobileNumber('07506189foo')).toEqual(false);
   });
   it('returns true when passed random other valid phone numbers', () => {
-    expect(validMobileNumber('00447555123456')).to.equal(true);
-    expect(validMobileNumber('+447676111222')).to.equal(true);
-    expect(validMobileNumber('07898888643')).to.equal(true);
-    expect(validMobileNumber('07766555432')).to.equal(true);
-    expect(validMobileNumber('07989765490')).to.equal(true);
+    expect(validMobileNumber('00447555123456')).toEqual(true);
+    expect(validMobileNumber('+447676111222')).toEqual(true);
+    expect(validMobileNumber('07898888643')).toEqual(true);
+    expect(validMobileNumber('07766555432')).toEqual(true);
+    expect(validMobileNumber('07989765490')).toEqual(true);
   });
   it('returns false when passed random other invalid phone numbers', () => {
-    expect(validMobileNumber('004475551&&&23456')).to.equal(false);
-    expect(validMobileNumber('-447676111222')).to.equal(false);
-    expect(validMobileNumber('09898888643')).to.equal(false);
-    expect(validMobileNumber('+449166555432')).to.equal(false);
-    expect(validMobileNumber('00448989765493')).to.equal(false);
-    expect(validMobileNumber('cats')).to.equal(false);
+    expect(validMobileNumber('004475551&&&23456')).toEqual(false);
+    expect(validMobileNumber('-447676111222')).toEqual(false);
+    expect(validMobileNumber('09898888643')).toEqual(false);
+    expect(validMobileNumber('+449166555432')).toEqual(false);
+    expect(validMobileNumber('00448989765493')).toEqual(false);
+    expect(validMobileNumber('cats')).toEqual(false);
   });
 });
 
 describe('sumDigitsFromString', () => {
   it('picks out a digit from a string and returns', () => {
-    expect(sumDigitsFromString('foo5foo')).to.equal(5);
+    expect(sumDigitsFromString('foo5foo')).toBe(5);
   });
   it('sums multiple digits from a string', () => {
-    expect(sumDigitsFromString('5foo5foo')).to.equal(10);
+    expect(sumDigitsFromString('5foo5foo')).toBe(10);
   });
   it('returns a sum of several digits in a string', () => {
-    expect(sumDigitsFromString('hello1world5this3is2a2string')).to.equal(13);
+    expect(sumDigitsFromString('hello1world5this3is2a2string')).toBe(13);
   });
   it('treats consecutive digits as individual numbers', () => {
-    expect(sumDigitsFromString('he110world')).to.equal(2);
+    expect(sumDigitsFromString('he110world')).toBe(2);
   });
 });
 
@@ -418,35 +419,35 @@ describe('getFactorials', () => {
 
 describe('largestNumber', () => {
   it('if passed a single-digit number then returns that number', () => {
-    expect(largestNumber(9)).to.equal(9);
-    expect(largestNumber(0)).to.equal(0);
-    expect(largestNumber(1)).to.equal(1);
+    expect(largestNumber(9)).toBe(9);
+    expect(largestNumber(0)).toBe(0);
+    expect(largestNumber(1)).toBe(1);
   });
   it('if passed a 2-digit number then does nothing if they are in descending order', () => {
-    expect(largestNumber(43)).to.equal(43);
-    expect(largestNumber(81)).to.equal(81);
-    expect(largestNumber(21)).to.equal(21);
-    expect(largestNumber(20)).to.equal(20);
+    expect(largestNumber(43)).toBe(43);
+    expect(largestNumber(81)).toBe(81);
+    expect(largestNumber(21)).toBe(21);
+    expect(largestNumber(20)).toBe(20);
   });
   it('if passed a 2-digit number then swaps the numbers if they are are in ascending order', () => {
-    expect(largestNumber(19)).to.equal(91);
-    expect(largestNumber(23)).to.equal(32);
-    expect(largestNumber(35)).to.equal(53);
+    expect(largestNumber(19)).toBe(91);
+    expect(largestNumber(23)).toBe(32);
+    expect(largestNumber(35)).toBe(53);
   });
   it('if passed a 3-digit number then returns the correctly ordered number', () => {
-    expect(largestNumber(473)).to.equal(743);
-    expect(largestNumber(850)).to.equal(850);
-    expect(largestNumber(801)).to.equal(810);
-    expect(largestNumber(100)).to.equal(100);
-    expect(largestNumber(219)).to.equal(921);
-    expect(largestNumber(581)).to.equal(851);
+    expect(largestNumber(473)).toBe(743);
+    expect(largestNumber(850)).toBe(850);
+    expect(largestNumber(801)).toBe(810);
+    expect(largestNumber(100)).toBe(100);
+    expect(largestNumber(219)).toBe(921);
+    expect(largestNumber(581)).toBe(851);
   });
   it('returns correctly ordered number for large numbers including those with many trailiing zeros', () => {
-    expect(largestNumber(12345)).to.equal(54321);
-    expect(largestNumber(12345000)).to.equal(54321000);
-    expect(largestNumber(1010100)).to.equal(1110000);
-    expect(largestNumber(89382291)).to.equal(99883221);
-    expect(largestNumber(8001009100)).to.equal(9811000000);
+    expect(largestNumber(12345)).toBe(54321);
+    expect(largestNumber(12345000)).toBe(54321000);
+    expect(largestNumber(1010100)).toBe(1110000);
+    expect(largestNumber(89382291)).toBe(99883221);
+    expect(largestNumber(8001009100)).toBe(9811000000);
   });
 });
 
@@ -471,23 +472,23 @@ describe('generateMatrix', () => {
 
 describe('findWrongWayFruit', () => {
   it('returns 0 when passed an array length smaller than 3', () => {
-    expect(findWrongWayFruit(['apple'])).to.equal(0);
-    expect(findWrongWayFruit(['elppa', 'apple'])).to.equal(0);
+    expect(findWrongWayFruit(['apple'])).toBe(0);
+    expect(findWrongWayFruit(['elppa', 'apple'])).toBe(0);
   });
   it('returns the correct index when the wrong-way fruit is in the middle of the array', () => {
     expect(
       findWrongWayFruit(['apple', 'apple', 'apple', 'apple', 'elppa', 'apple']),
-    ).to.equal(4);
+    ).toBe(4);
   });
   it('returns the correct index when the wrong-way fruit is at start', () => {
     expect(
       findWrongWayFruit(['elppa', 'apple', 'apple', 'apple', 'apple', 'apple']),
-    ).to.equal(0);
+    ).toBe(0);
   });
   it('returns the correct index when the wrong-way fruit is at the end', () => {
     expect(
       findWrongWayFruit(['apple', 'apple', 'apple', 'apple', 'apple', 'elppa']),
-    ).to.equal(5);
+    ).toBe(5);
   });
   it('returns the correct index when the wrong-way fruit is at any other random position', () => {
     expect(
@@ -499,7 +500,7 @@ describe('findWrongWayFruit', () => {
         'orange',
         'egnaro',
       ]),
-    ).to.equal(5);
+    ).toBe(5);
     expect(
       findWrongWayFruit([
         'banana',
@@ -509,10 +510,10 @@ describe('findWrongWayFruit', () => {
         'banana',
         'banana',
       ]),
-    ).to.equal(1);
+    ).toBe(1);
     expect(
       findWrongWayFruit(['eparg', 'grape', 'grape', 'grape', 'grape', 'grape']),
-    ).to.equal(0);
+    ).toBe(0);
     expect(
       findWrongWayFruit([
         'tomato',
@@ -522,7 +523,7 @@ describe('findWrongWayFruit', () => {
         'otamot',
         'tomato',
       ]),
-    ).to.equal(4);
+    ).toBe(4);
     expect(
       findWrongWayFruit([
         'cucumber',
@@ -532,7 +533,7 @@ describe('findWrongWayFruit', () => {
         'cucumber',
         'cucumber',
       ]),
-    ).to.equal(2);
+    ).toBe(2);
   });
 });
 
@@ -556,7 +557,7 @@ describe('pairDNA', () => {
 
 describe('tallyHashtagsAndMentions', () => {
   it('returns an object', () => {
-    expect(typeof tallyHashtagsAndMentions('')).to.equal('object');
+    expect(typeof tallyHashtagsAndMentions('')).toBe('object');
   });
   it('returns {hashtags: 0, mentions: 0} if it finds none', () => {
     expect(
