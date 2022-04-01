@@ -7,6 +7,7 @@ Congratulations on passing your entry challenge and taking your first steps towa
 <!-- Moving PRE-3 content to PRE-2, merging PRE-2 with PRE-1 -->
 
 You must finish PRE-1 before moving on to PRE-2. We'd like you to have completed at least PRE-1 before starting the coding bootcamp.
+<!-- PRE1 >>> JAVASCRIPT PRECOURSE?-->
 
 Please follow this README in order. PRE-1 contains a mixture of videos, reading material and challenges covering fundamental skills that we expect you to be comfortable with when you begin the bootcamp.
 
