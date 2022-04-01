@@ -64,6 +64,8 @@ function addGuestsToParty(peopleArray) {
     
 */
 
+
+// ---------- Do not change the code below this line --------------
 module.exports = {
   getFirstItem,
   countTheChars,
