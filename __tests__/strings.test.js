@@ -82,7 +82,7 @@ describe('convertToCamelCase', () => {
   });
 });
 
-describe.only('passwordValidation', () => {
+describe('passwordValidation', () => {
   it("returns 'invalid' for password not containing 'n', 'c', or ending with '1'", () => {
     expect(passwordValidation('poonam1')).toBe('invalid');
     expect(passwordValidation('password')).toBe('invalid');
