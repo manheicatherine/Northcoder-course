@@ -9,7 +9,7 @@ These videos show the workflow required to get and solve the final challenges. T
 <!-- 🚩 We will need to re-record these videos (github out of date/repo might look different) 👇🏽 -->
 
 [Solving a problem](https://youtu.be/8r2DrCwKPRY)
-// RE RECORD, 
+// RE RECORD,
 
 Please note that the arrangement of the files has changed a bit since we recorded this video. Follow the guide below when ensuring you are in the right directory to run `npm install` and `npm test`.
 
@@ -53,5 +53,4 @@ _HINT: Remember to name the specific file in your `npm test` command._
 
 8. If you're having difficulties, you can post on the 'precourse' Slack channel - we'll try to get back to you as soon as possible, and there's usually some helpful current / former / upcoming students with useful advice too :)
 
-9. Once you have completed all of the sections inside the challenges folder, refer back to the README in the root of this project for your next steps!
-
+9. Once you have completed all of the sections inside the challenges folder, move onto section 6 (Problem Solving) in the [README](../README.md).
