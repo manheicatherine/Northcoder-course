@@ -65,4 +65,6 @@ function isShrekCharacter(characters) {
 */
 
 // NOTE: Remember to remove any unused variables or console logs from the code.
+
+// ---------- Do not change the code below this line --------------
 module.exports = { isSweetEnough, shoutNames, isShrekCharacter, tripleNums };
