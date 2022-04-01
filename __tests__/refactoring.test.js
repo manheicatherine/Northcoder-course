@@ -2,7 +2,18 @@ const {
   isSweetEnough,
   shoutNames,
   isShrekCharacter,
-} = require('../problem-solving/refactoring');
+  tripleNums,
+} = require('../functional-programming/refactoring');
+
+describe('tripleNums', () => {
+  it('returns all numbers in array multipled by three', () => {
+    let nums = [1, 2, 3, 4];
+    expect(tripleNums(nums)).toEqual([3, 6, 9, 12]);
+
+    nums = [10, 25, 30, 40];
+    expect(tripleNums(nums)).toEqual([30, 75, 90, 120]);
+  });
+});
 
 describe('shoutNames', () => {
   it('returns all names uppercased', () => {
