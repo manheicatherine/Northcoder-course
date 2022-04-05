@@ -6,9 +6,9 @@ We are looking for you to show your understanding of the different types of valu
 
 These videos show the workflow required to get and solve the final challenges. There's step-by-step instructions below too - this will put your skills with the command line and git to the test, alongside JavaScript problem solving.
 
-[Solving a problem](https://youtu.be/8r2DrCwKPRY)
+📹 [Solving a problem](https://youtu.be/8r2DrCwKPRY)
 
-[Pushing and committing your code](https://youtu.be/WkZvpDnphqE)
+📹 [Pushing and committing your code](https://youtu.be/WkZvpDnphqE)
 
 ### Instructions
 
@@ -21,11 +21,11 @@ These videos show the workflow required to get and solve the final challenges. T
 4. In your katas folder you will see a number of files. Each file contains a range of katas focusing on one fundamental JavaScript theme. We recommend that you attempt the challenges in the suggested order. If you feel less confident in one area than you do in others, we would recommend that you spend more time on those trickier concepts.
    Suggested order:
 
-- 1-maths.js
-- 2-conditional-logic.js
-- 3-strings.js
-- 4-arrays.js
-- 5-objects.js
+   - 1-maths.js
+   - 2-conditional-logic.js
+   - 3-strings.js
+   - 4-arrays.js
+   - 5-objects.js
 
 5. Run the test suite regularly using `npm test` to see how you are doing. - If you look at the **tests** folder we have more than one test file. We would encourage you going forward to only run the tests on the specific katas you are working on. Each set of katas has a corresponding test file e.g `maths.js > maths.test.js`.
    To run a specific test file you can append the `npm test` command with the specific file you wish to run. To run the maths test file you would run the command `npm test maths.test.js`
@@ -50,4 +50,4 @@ _HINT: Remember to name the specific file in your `npm test` command._
 
 9. If you're having difficulties, you can post on the 'precourse' Slack channel - we'll try to get back to you as soon as possible, and there's usually some helpful current / former / upcoming students with useful advice too :)
 
-10. Once you have completed all of the sections inside the challenges folder, move onto section 6 (Problem Solving) in the [README](../README.md).
+10. Once you have completed all of the sections inside the challenges folder, move onto section 5 (Problem Solving) in the [README](../README.md).
