@@ -10,7 +10,7 @@ const {
 } = require('../challenges/katas/1-maths');
 
 describe('Basic Maths', () => {
-  it('mod returns the remainder of dividing a by b', () => {
+  it('modulo returns the remainder of dividing a by b', () => {
     expect(modulo(4, 2)).toEqual(0);
     expect(modulo(7, 2)).toEqual(1);
   });
