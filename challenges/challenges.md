@@ -6,15 +6,11 @@ We are looking for you to show your understanding of the different types of valu
 
 These videos show the workflow required to get and solve the final challenges. There's step-by-step instructions below too - this will put your skills with the command line and git to the test, alongside JavaScript problem solving.
 
-<!-- 🚩 We will need to re-record these videos (github out of date/repo might look different) 👇🏽 -->
-
 [Solving a problem](https://youtu.be/8r2DrCwKPRY)
-// RE RECORD
 
 Please note that the arrangement of the files has changed a bit since we recorded this video. Follow the guide below when ensuring you are in the right directory to run `npm install` and `npm test`.
 
 [Pushing and committing your code](https://youtu.be/WkZvpDnphqE)
-// RE RECORD
 
 ### Instructions
 
