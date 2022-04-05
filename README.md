@@ -1,6 +1,6 @@
 # JavaScript Precourse
 
-Congratulations on passing your entry challenge and taking your first steps towards the Northcoders Bootcamp! 🎉
+Congratulations on passing the entry challenge and taking your first steps towards the Northcoders Bootcamp! 🎉
 
 You must finish the JavaScript Precourse before moving on to the HTML/CSS Precourse. We'd like you to have completed at least the JavaScript Precourse before starting the coding bootcamp.
 
@@ -20,7 +20,15 @@ Remember to take regular screen breaks (5 - 10 minutes every hour at least) and 
 
 ### Be the tortoise, not the hare 🐢 🐰
 
-Take your time with this content. You're here to learn, it isn't a race to a finish line. Maybe try chipping away at this repo in small regular sessions.
+Take your time with this content. You're here to learn, it isn't a race to the finish line.
+
+The purpose of this precourse is to build your skills up by giving you a playground to explore concepts. While we'd like you to complete this, you're not expected to fly through these in one day.
+
+Try chipping away at this repo in small regular sessions.
+
+Some days may be tougher than others. Remember those frustrating times are just as much of the developing experience as the days you feel on top of the code. Keep talking to us and peers, all of us have been or are in the same position and we all get through it.
+
+Although it's easy to do, don't compare yourself to others. This is a personal learning journey. If anything it's nice to look back on what YOU were able to do a month ago compared to now... aka you're smashing it 🎉
 
 ---
 
