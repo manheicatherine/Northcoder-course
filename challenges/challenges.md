@@ -12,7 +12,7 @@ These videos show the workflow required to get and solve the final challenges. T
 
 ### Instructions
 
-1. Check you `cd` into the root of this repository. _Hint: if you use the command `pwd` in your terminal the path returned should end in `JavaScript-Precourse`._
+1. Check you `cd` into the root of this repository. _Hint: if you use the command `pwd` in your terminal the path returned should end in `precourse-javascript`._
 
 2. Run `npm install` in your terminal. Don't worry about any 'vulnerabilities' messages you might see e.g. `2 moderate severity vulnerabilities`. There's **no need** to run `npm audit fix` like the terminal might suggest.
 
