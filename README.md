@@ -14,21 +14,21 @@ While you complete your precourse we encourage you to attend our regular drop-in
 
 ### Take Regular Breaks 🚰 🌳 🚶‍♂️
 
-There is a lot of work to get through in this repository and you're just one person.
+- There is a lot of work to get through in this repository and you're just one person.
 
-Remember to take regular screen breaks (5 - 10 minutes every hour at least) and get some fresh air if possible. Sitting in front of your screen for hours at a time is tiring and can often lead to 'brain fog', especially when tackling lots of challenges.
+- Remember to take regular screen breaks (5 - 10 minutes every hour at least) and get some fresh air if possible. Sitting in front of your screen for hours at a time is tiring and can often lead to 'brain fog', especially when tackling lots of challenges.
 
 ### Be the tortoise, not the hare 🐢 🐰
 
-Take your time with this content. You're here to learn, it isn't a race to the finish line.
+- Take your time with this content. You're here to learn, it isn't a race to the finish line.
 
-The purpose of this precourse is to build your skills up by giving you a playground to explore concepts. While we'd like you to complete this, you're not expected to fly through these in one day.
+- The purpose of this precourse is to build your skills up by giving you a playground to explore concepts. While we'd like you to complete this, you're not expected to fly through these in one day.
 
-Try chipping away at this repo in small regular sessions.
+- Try chipping away at this repo in small regular sessions.
 
-Some days may be tougher than others. Remember those frustrating times are just as much of the developing experience as the days you feel on top of the code. Keep talking to us and peers, all of us have been or are in the same position and we all get through it.
+- Some days may be tougher than others. Remember those frustrating times are just as much of the developing experience as the days you feel on top of the code. Keep talking to us and peers, all of us have been or are in the same position and we all get through it.
 
-Although it's easy to do, don't compare yourself to others. This is a personal learning journey. If anything it's nice to look back on what YOU were able to do a month ago compared to now... aka you're smashing it 🎉
+- Although it's easy to do, don't compare yourself to others. This is a personal learning journey. If anything it's nice to look back on what YOU were able to do a month ago compared to now... aka you're smashing it 🎉
 
 ---
 
