@@ -46,6 +46,8 @@ _HINT: Remember to name the specific file in your `npm test` command._
 
 7. Practice using git from the command line by adding and committing your code frequently as you work through the exercises. When you solve a problem, make a commit.
 
-8. If you're having difficulties, you can post on the 'precourse' Slack channel - we'll try to get back to you as soon as possible, and there's usually some helpful current / former / upcoming students with useful advice too :)
+8. When you've finished a file of katas, run all tests for that file with no `.only`s in the code. You should see lots of green ticks ✅ in your terminal.
 
-9. Once you have completed all of the sections inside the challenges folder, move onto section 6 (Problem Solving) in the [README](../README.md).
+9. If you're having difficulties, you can post on the 'precourse' Slack channel - we'll try to get back to you as soon as possible, and there's usually some helpful current / former / upcoming students with useful advice too :)
+
+10. Once you have completed all of the sections inside the challenges folder, move onto section 6 (Problem Solving) in the [README](../README.md).
