@@ -8,8 +8,6 @@ These videos show the workflow required to get and solve the final challenges. T
 
 [Solving a problem](https://youtu.be/8r2DrCwKPRY)
 
-Please note that the arrangement of the files has changed a bit since we recorded this video. Follow the guide below when ensuring you are in the right directory to run `npm install` and `npm test`.
-
 [Pushing and committing your code](https://youtu.be/WkZvpDnphqE)
 
 ### Instructions
