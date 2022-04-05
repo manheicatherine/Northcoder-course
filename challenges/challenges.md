@@ -18,7 +18,7 @@ Please note that the arrangement of the files has changed a bit since we recorde
 
 ### Instructions
 
-1. Check you `cd` into the root of this repository. _Hint: if you use the command `pwd` in your terminal the path returned should end in `PRE-1`._
+1. Check you `cd` into the root of this repository. _Hint: if you use the command `pwd` in your terminal the path returned should end in `JavaScript-Precourse`._
 
 2. Run `npm install` in your terminal. Don't worry about any 'vulnerabilities' messages you might see e.g. `2 moderate severity vulnerabilities`. There's **no need** to run `npm audit fix` like the terminal might suggest.
 

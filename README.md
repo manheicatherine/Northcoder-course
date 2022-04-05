@@ -1,15 +1,10 @@
-# Precourse Section 1
-
-<!-- Could be renamed Javascript Precourse and HTML/CSS Precourse -->
+# JavaScript Precourse
 
 Congratulations on passing your entry challenge and taking your first steps towards the Northcoders Bootcamp! 🎉
 
-<!-- Moving PRE-3 content to PRE-2, merging PRE-2 with PRE-1 -->
+You must finish the JavaScript Precourse before moving on to the HTML/CSS Precourse. We'd like you to have completed at least the JavaScript Precourse before starting the coding bootcamp.
 
-You must finish PRE-1 before moving on to PRE-2. We'd like you to have completed at least PRE-1 before starting the coding bootcamp.
-<!-- PRE1 >>> JAVASCRIPT PRECOURSE?-->
-
-Please follow this README in order. PRE-1 contains a mixture of videos, reading material and challenges covering fundamental skills that we expect you to be comfortable with when you begin the bootcamp.
+Please follow this README in order. The JavaScript Precourse contains a mixture of videos, reading material and challenges covering fundamental skills that we expect you to be comfortable with when you begin the bootcamp.
 
 ## Before you start
 
@@ -62,8 +57,7 @@ Try out git yourself by following the GitHub Learning Lab course [here](https://
 
 You should now use git to download this repository so that you can work on the challenges on your local machine!
 
-Here's a tutorial on how to fork and clone this repo from Github: [Forking and cloning the project](https://youtu.be/QxvgzQFmOJE)
-<--- RE RECORD---->
+Here's a tutorial on how to fork and clone this repo from Github: [Forking and cloning the project](https://youtu.be/QxvgzQFmOJE).
 
 1. Fork and clone this repository.
 
@@ -93,7 +87,7 @@ You've probably already shown in your Entry Challenge that you can demonstrate t
 It's important our code is easy to read and well laid out. As well as helping other people, it also makes our life easier when we go back and read our code over at a later date.
 
 Read this article and implement these styling guidelines when working through the rest of the Precourse:
-https://javascript.info/coding-style
+https://javaScript.info/coding-style.
 
 Always be asking yourself 'if I was to take away the question and any comments, can someone still understand what my code is doing?'
 
@@ -113,7 +107,7 @@ Problem solving is the number one skill that employers in the tech sector value 
 
 Please watch [these 5 videos by Michael Starbird](https://www.youtube.com/playlist?list=PLEo7ej2RhHszJy_77UXC8GJpb8LtW-dJT). The first two in particular really resonate with the Northcoders philosophy. Try to apply what you have learnt in these videos to the next coding problems you encounter.
 
-If you haven't already done so, please work through some of the [Algorithm Challenges on FreeCodeCamp](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-algorithm-scripting). All of the problems in this chapter are excellent practice - we recommend trying to solve 5 of them as a minimum.
+If you haven't already done so, please work through some of the [Algorithm Challenges on FreeCodeCamp](https://learn.freecodecamp.org/javaScript-algorithms-and-data-structures/basic-algorithm-scripting). All of the problems in this chapter are excellent practice - we recommend trying to solve 5 of them as a minimum.
 
 ### TASK
 
@@ -129,13 +123,13 @@ Take a look at [Kyle Simpson's Get Started](https://github.com/getify/You-Dont-K
 
 You may also enjoy reading (or at least beginning!) Paul Ford's excellent article, [What is Code?](http://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/)
 
-It's a long read, but stick with it - it's probably one of the top articles of all time, on any subject. When Ford first published it in Bloomberg Businessweek, the magazine completely sold out and is almost impossible to get hold of in hardcopy now.
+It's a long read, but stick with it - it's probably one of the top articles of all time, on any subject. When Ford first published it in Bloomberg Businessweek, the magazine completely sold out and is almost impossible to get hold of in hard copy now.
 
 ---
 
 ## 8. Functional Programming
 
-How about adding a couple of new tools to your toolbelt? `map` and `filter` are methods available on all arrays (like `slice`, `pop` and `push`) and are extremely useful!
+How about adding a couple of new tools to your tool belt? `map` and `filter` are methods available on all arrays (like `slice`, `pop` and `push`) and are extremely useful!
 
 Map allows us to transform elements in an array, and filter allows us to filter down an array based on elements we want to keep or reject.
 
