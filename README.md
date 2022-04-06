@@ -5,8 +5,9 @@ Congratulations on passing the entry challenge and taking your first steps towar
 We suggest you work through the JavaScript Precourse before moving on to the HTML/CSS Precourse. We'd like you to have completed at least the JavaScript Precourse before starting the coding bootcamp. <!-- Take this out? Amend? -->
 
 Please follow this README in order. The JavaScript Precourse contains a mixture of videos, reading material and challenges covering fundamental skills that we expect you to be comfortable with when you begin the bootcamp. </br>
-To help, we have marked out these sections using emojis: 
-- 📖 : Read. 
+To help, we have marked out these sections using emojis:
+
+- 📖 : Read.
 - 📹 : Watch.
 - 💻 : Code.
 
@@ -36,7 +37,7 @@ To help, we have marked out these sections using emojis:
 
 ---
 
-## 1. The Command Line 
+## 1. The Command Line
 
 📖 Please read [this article](http://learntocodewith.me/getting-started/topics/command-line/) that explains why we use the command line.
 
@@ -44,8 +45,7 @@ To help, we have marked out these sections using emojis:
 
 - [macOS](https://openclassrooms.com/en/courses/4614926-learn-the-command-line-in-terminal?status=published)
 - [Linux/WSL](https://tutorials.ubuntu.com/tutorial/command-line-for-beginners)
-
-💻 Follow the whole course up to the end. Code Academy also has [more practice material](https://codeacademy.com/learn/learn-the-command-line) on the command line.
+  Follow the whole course up to the end. Code Academy also has [more practice material](https://codeacademy.com/learn/learn-the-command-line) on the command line.
 
 📖 Print out or bookmark this [cheat sheet](https://www.git-tower.com/blog/command-line-cheat-sheet/) of common commands. The directory and file commands are most useful so try to practice with these and commit them to memory as soon as possible.
 
@@ -72,6 +72,7 @@ You should now use git to download this repository so that you can work on the c
 📹 Here's a tutorial on how to fork and clone this repo from Github: [Forking and cloning the project](https://youtu.be/QxvgzQFmOJE).
 
 💻 **Time for you to make your own copy of this repository**
+
 1. Fork and clone this repository.
 
 2. Open this repository in VSCode.
@@ -102,7 +103,7 @@ Always ask yourself _'If I was to take away the question and any comments, can s
 
 ---
 
-## 4. Challenges 
+## 4. Challenges
 
 **We have supplied you with a folder of challenges for you to complete. The style of these katas should be familiar to you after the katas you've completed running up to and including your entry challenge.**
 
@@ -124,7 +125,9 @@ Problem solving is the number one skill that employers in the tech sector value 
 
 ---
 
-## 6. Reading
+## 6. What is JavaScript?
+
+You've gotten so far into your training with JavaScript but have you ever asked the question: what even is JavaScript. Here's some reading to tickle those taste buds.
 
 📖 Take a look at [Kyle Simpson's Get Started](https://github.com/getify/You-Dont-Know-JS/blob/2nd-ed/get-started/README.md) book, which is a great intro to JavaScript and gives a thorough overview of the things you should understand at this point. Read the [Preface](https://github.com/getify/You-Dont-Know-JS/blob/2nd-ed/preface.md), and [Chapter 2](https://github.com/getify/You-Dont-Know-JS/blob/2nd-ed/get-started/ch2.md) up until the section on 'How We Organize in JS' - from thereon, we'll cover in the course.
 
@@ -173,6 +176,6 @@ Regular expressions are common across all programming languages and allow you to
 
 ## 9. Advanced Challenges
 
-💻 In the advanced-challenges folder there is a file with the same name that contains further katas. 
+💻 In the advanced-challenges folder there is a file with the same name that contains further katas.
 
 The steps for completing the final challenges are the same as `4.Challenges`. Use what you've learnt about regex and functional programming where you can - it would be great to see some array methods used like `map` and `filter`. If you can't make it work, feel free to send us a message on Slack!
