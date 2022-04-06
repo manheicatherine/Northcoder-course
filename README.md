@@ -2,7 +2,7 @@
 
 Congratulations on passing the entry challenge and taking your first steps towards the Northcoders Bootcamp! 🎉
 
-We suggest you work through the JavaScript Precourse before moving on to the HTML/CSS Precourse. We'd like you to have completed at least the JavaScript Precourse before starting the coding bootcamp. <!-- Take this out? Amend? -->
+We suggest you work through the JavaScript Precourse before moving on to the HTML/CSS Precourse. We'd like you to have completed at least the JavaScript Precourse before starting the coding bootcamp. 
 
 Please follow this README in order. The JavaScript Precourse contains a mixture of videos, reading material and challenges covering fundamental skills that we expect you to be comfortable with when you begin the bootcamp. </br>
 To help, we have marked out these sections using emojis:
@@ -69,7 +69,7 @@ Version control is a necessity in modern-day programming. Git and Github are big
 
 You should now use git to download this repository so that you can work on the challenges on your local machine!
 
-📹 Here's a tutorial on how to fork and clone this repo from Github: [Forking and cloning the project](https://youtu.be/QxvgzQFmOJE).
+📹 Here's a tutorial on how to fork and clone this repo from Github: [Forking, cloning and opening a repo](https://www.youtube.com/watch?v=FsUicyMVobQ).
 
 💻 **Time for you to make your own copy of this repository**
 
