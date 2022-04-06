@@ -37,4 +37,4 @@ If you run `npm test errors.test.js` you will see that all of these tests fail f
 
 Fix the existing code for each kata so that they pass the tests associated with them.
 
-Once you have fixed all the broken katas, move onto section 6 (Reading) in the [README](../README.md).
+Once you have fixed all the broken katas, move onto section 6 (What is Javascript) in the [README](../README.md).
