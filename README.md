@@ -123,7 +123,7 @@ Problem solving is the number one skill that employers in the tech sector value 
 
 📹 Please watch [these 5 videos by Michael Starbird](https://www.youtube.com/playlist?list=PLEo7ej2RhHszJy_77UXC8GJpb8LtW-dJT). The first two in particular really resonate with the Northcoders philosophy. Try to apply what you have learnt in these videos to the next coding problems you encounter.
 
-💻 If you haven't already done so, please work through some of the [Algorithm Challenges on FreeCodeCamp](https://learn.freecodecamp.org/javaScript-algorithms-and-data-structures/basic-algorithm-scripting). All of the problems in this chapter are excellent practice - we recommend trying to solve 5 of them as a minimum.
+💻 If you haven't already done so, please work through some of the [Algorithm Challenges on FreeCodeCamp](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/#basic-algorithm-scripting). All of the problems in this chapter are excellent practice - we recommend trying to solve 5 of them as a minimum.
 
 **Now we want you to approach some existing katas from a problem solving perspective. This task requires you to fix some broken code in order to get tests passing.**
 
