@@ -81,7 +81,7 @@ _If you are using WSL, follow this video:_ [Forking and cloning a repo](https://
 
 1. Fork and clone this repository.
 
-2. Open this repository in VSCode.
+2. Open this repository in VSCode. (If you'd like to open it using your terminal, [this video](https://www.youtube.com/watch?v=iP5FKZXtDBs) is a good guide.)
 
 3. Continue reading this README on your local machine.
 
