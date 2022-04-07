@@ -23,6 +23,10 @@ To help, we have marked out these sections using emojis:
 
 - Remember to take regular screen breaks (5 - 10 minutes every hour at least) and get some fresh air if possible. Sitting in front of your screen for hours at a time is tiring and can often lead to 'brain fog', especially when tackling lots of challenges.
 
+### Make use of CHECKLIST.md
+
+- There is a [checklist file](CHECKLIST.md) in the root of this repo. We understand that for many of you this is the first time you have encountered a project like this in VSCode and it can be tricky at first to navigate. Use this file to keep track of the tasks you have completed, it may help you to have a clearer idea of what you have done and what comes next.
+
 ### Be the tortoise, not the hare 🐢 🐰
 
 - Take your time with this content. You're here to learn, it isn't a race to the finish line.
@@ -70,6 +74,8 @@ Version control is a necessity in modern-day programming. Git and Github are big
 You should now use git to download this repository so that you can work on the challenges on your local machine!
 
 📹 Here's a tutorial on how to fork and clone this repo from Github: [Forking, cloning and opening a repo](https://www.youtube.com/watch?v=FsUicyMVobQ).
+
+_If you are using WSL, follow this video:_ [Forking and cloning a repo](https://www.loom.com/share/40b3c2915042489b8652cb2d6d32e275).
 
 💻 **Time for you to make your own copy of this repository**
 
