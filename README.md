@@ -75,7 +75,7 @@ You should now use git to download this repository so that you can work on the c
 
 📹 Here's a tutorial on how to fork and clone this repo from Github: [Forking, cloning and opening a repo](https://www.youtube.com/watch?v=FsUicyMVobQ).
 
-_If you are using WSL, follow this video:_ [Forking and cloning a repo](https://www.loom.com/share/40b3c2915042489b8652cb2d6d32e275).
+_If you are using WSL, follow this video:_ [Forking and cloning a repo with WSL](https://www.loom.com/share/40b3c2915042489b8652cb2d6d32e275).
 
 💻 **Time for you to make your own copy of this repository**
 
