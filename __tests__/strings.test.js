@@ -20,8 +20,8 @@ describe('getLength', () => {
 
 describe('putNamesTogether', () => {
   it('returns the passed names separated by a space', () => {
-    expect(putNamesTogether('Kevin', 'Durant')).toEqual('Kevin Durant');
-    expect(putNamesTogether('Stephen', 'Curry')).toEqual('Stephen Curry');
+    expect(putNamesTogether('Timnit', 'Gebru')).toEqual('Timnit Gebru');
+    expect(putNamesTogether('Ifeoma', 'Ozoma')).toEqual('Ifeoma Ozoma');
   });
 });
 
