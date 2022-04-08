@@ -15,7 +15,6 @@ const {
   countTheObjects,
 } = require('../challenges/katas/5-objects');
 
-// OBJECTS
 describe('isOver40', function () {
   it('returns true if the user is over 40', function () {
     expect(isOver40({ age: 55 })).toBe(true);
@@ -34,7 +33,6 @@ describe('isOver40', function () {
   });
 });
 
-// !!!!!!!!! red flag
 describe('getUserAge', () => {
   it('returns the age of the passed user based on its yearOfBirth property', () => {
     const currentYear = new Date().getFullYear();

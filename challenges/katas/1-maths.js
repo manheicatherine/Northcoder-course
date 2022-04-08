@@ -14,7 +14,7 @@ function raiseToPower(m, n) {
 }
 
 function formatMoney(amount) {
-  /**
+  /*
    * return a the amount formatted into pounds sterling
    * Amounts should be a string with the £ symbol in front
    * formatMoney(2.33) => "£2.33"

@@ -13,7 +13,7 @@ Below is an example of an error message from a failing test:
     >  7 |   return firstitem;
          |   ^
        8 | }
-       9 | /*
+       9 |
       10 |
 
       at getFirstItem (problem-solving/errors.js:7:3)

@@ -26,15 +26,14 @@ function mergeArrays(arr1, arr2) {
 }
 
 function flattenArrayByOne(arrayOfArrays) {
-  // given a nested array or arrays, return a new array with one less level of nesting. All the elements of all the original nested arrays must be kept in their original order
-  // for example:
-  // [[1],[2],[[3,4]]] => [1,2,[3,4]]
+  /* given a nested array or arrays, return a new array with one less level of nesting. All the elements of all the original nested arrays must be kept in their original order
+  for example: [[1],[2],[[3,4]]] => [1,2,[3,4]]
+  */
 }
 
 function isItemOmnipresent(arrayOfArrays, item) {
   // return true if the passed item is present in all the arrays inside arrayOfArrays
 }
-
 
 // ---------- Do not change the code below this line --------------
 module.exports = {
