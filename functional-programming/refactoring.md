@@ -7,7 +7,7 @@ The general rule of thumb to follow is red, green, refactor.
 - Green refers to tests passing. </br>
 - Refactor refers to revisting the passing code and seeing if there's anything you can change.
 
-💻 **In [refactoring.js](./refactoring.js) we have provided you with some completed kata solutions. Your task is to refactor these solutions.**
+💻 **In [refactoring.js](./refactoring.js) we have provided you with some completed kata solutions. Your task is to refactor these solutions with the method suggested above each kata.**
 
 _Make sure the tests are still passing once you are finished! `npm test refactoring.test.js`_
 

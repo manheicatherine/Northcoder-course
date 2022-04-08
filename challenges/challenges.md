@@ -8,6 +8,8 @@ These videos show the workflow required to get and solve the final challenges. T
 
 📹 [Solving a problem](https://youtu.be/_myqhYIc4ek)
 
+_Hint: To open a new terminal in VSCode, navigate to `Terminal > New Terminal` or use the keyboard shortcut `CTRL + ` \`(backtick)_
+
 📹 [Pushing and committing your code](https://www.youtube.com/watch?v=2vtx-emhg64)
 
 ### Instructions

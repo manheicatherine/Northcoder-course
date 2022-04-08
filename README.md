@@ -51,7 +51,7 @@ To help, we have marked out these sections using emojis:
 - [Linux/WSL](https://tutorials.ubuntu.com/tutorial/command-line-for-beginners)
   Follow the whole course up to the end. Udacity also has [more practice material](https://www.udacity.com/course/shell-workshop--ud206) on the command line.
 
-📖 Print out or bookmark this [cheat sheet](https://www.git-tower.com/blog/command-line-cheat-sheet/) of common commands. The directory and file commands are most useful so try to practice with these and commit them to memory as soon as possible.
+📖 This [cheat sheet](https://www.git-tower.com/blog/command-line-cheat-sheet/) of common commands is very useful. Feel free to bookmark it but don't put any pressure on yourself to memorise them all!
 
 From now on, try to **always** use your terminal program (iTerm, Terminator or git bash) to navigate around your computer, make, move, copy or remove files and folders.
 
@@ -59,7 +59,7 @@ From now on, try to **always** use your terminal program (iTerm, Terminator or g
 
 ## 2. Git / Github
 
-Github is a website and cloud-based service we can use to manage our code. On our local machines, we use git version control to track changes we make.
+We use git version control to track changes we make to source code on our local machine. Github is a website and cloud-based service that is built off git and is used to host git repositories.
 
 Version control is a necessity in modern-day programming. Git and Github are big topics and we will explore them during the course in more detail, but they will be part of your daily workflow from day 1, so take some time to start learning how they work.
 
@@ -85,6 +85,8 @@ _If you are using WSL, follow this video:_ [Forking and cloning a repo](https://
 
 3. Continue reading this README on your local machine.
 
+_HINT: If you'd like a more readable version of the README, right click on the file and select `Open Preview`_
+
 ---
 
 ## 3. Basic Skills
@@ -95,7 +97,7 @@ You've probably already shown in your Entry Challenge that you can demonstrate t
 - Execute code conditionally ('if' something is true)
 - Access an item in an array if you know its index
 - Access a value of an object if you know its key
-- Iterate through an array or string
+- Iterate through an array or string (using a loop)
 - Create a function with parameters that returns a value
 - Execute a function with parameters
 - Log values to the console
