@@ -157,14 +157,14 @@ describe('createNorthcoder', () => {
     expect(northcoder).hasOwnProperty('name');
     expect(northcoder.name).toEqual('Ant');
   });
-  it("returns an object with an 'age' property set to the user's age in the year 2019 according to the passed yearOfBirth argument", () => {
+  it("returns an object with an 'age' property set to the user's age in the year 2022 according to the passed yearOfBirth argument", () => {
     let northcoder = createNorthcoder('Mauro', 1989);
     expect(northcoder).hasOwnProperty('age');
-    expect(northcoder.age).toEqual(30);
+    expect(northcoder.age).toEqual(33);
 
     northcoder = createNorthcoder('Ant', 1991);
     expect(northcoder).hasOwnProperty('age');
-    expect(northcoder.age).toEqual(28);
+    expect(northcoder.age).toEqual(31);
   });
   it("returns an object with a 'language' property set to JavaScript", () => {
     const northcoder = createNorthcoder('Mauro', 1989);

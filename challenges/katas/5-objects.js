@@ -60,7 +60,7 @@ function addPropertyToProduct(product, property, value) {
 function createNorthcoder(name, yearOfBirth) {
   // return an object with:
   // a name property set to the value of the name parameter
-  // an age property set to whatever the age of the northcoder would be in the year 2019
+  // an age property set to whatever the age of the northcoder would be in the year 2022
   // a language property set to 'JavaScript'
 }
 
