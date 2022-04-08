@@ -2,7 +2,7 @@
 
 Congratulations on passing the entry challenge and taking your first steps towards the Northcoders Bootcamp! 🎉
 
-We suggest you work through the JavaScript Precourse before moving on to the HTML/CSS Precourse. We'd like you to have completed at least the JavaScript Precourse before starting the coding bootcamp. 
+We suggest you work through the JavaScript Precourse before moving on to the HTML/CSS Precourse. We'd like you to have completed at least the JavaScript Precourse before starting the coding bootcamp.
 
 Please follow this README in order. The JavaScript Precourse contains a mixture of videos, reading material and challenges covering fundamental skills that we expect you to be comfortable with when you begin the bootcamp. </br>
 To help, we have marked out these sections using emojis:
@@ -15,7 +15,7 @@ To help, we have marked out these sections using emojis:
 
 ### Remember we're here to help 👋🏽
 
-- While you complete your precourse we encourage you to attend our regular drop-in sessions and make use of the 'precourse' Slack channel (if you haven't received an invite let us know). In this channel, you'll find people who are completing the precourse just like you, people who have already completed it and tutors - a community to ask any and all questions to.
+- While you complete your precourse we encourage you to attend our regular drop-in sessions and make use of the 'precourse' Slack channel (if you haven't received an invite let us know). In this channel, you'll find people who are completing the precourse just like you, people who have already completed it and tutors - a community to ask any and all questions to. This channel is also a place for you to connect and chat with your peers 💬
 
 ### Take Regular Breaks 🚰 🌳 🚶‍♂️
 
@@ -49,7 +49,7 @@ To help, we have marked out these sections using emojis:
 
 - [macOS](https://openclassrooms.com/en/courses/4614926-learn-the-command-line-in-terminal?status=published)
 - [Linux/WSL](https://tutorials.ubuntu.com/tutorial/command-line-for-beginners)
-  Follow the whole course up to the end. Code Academy also has [more practice material](https://codeacademy.com/learn/learn-the-command-line) on the command line.
+  Follow the whole course up to the end. Udacity also has [more practice material](https://www.udacity.com/course/shell-workshop--ud206) on the command line.
 
 📖 Print out or bookmark this [cheat sheet](https://www.git-tower.com/blog/command-line-cheat-sheet/) of common commands. The directory and file commands are most useful so try to practice with these and commit them to memory as soon as possible.
 
