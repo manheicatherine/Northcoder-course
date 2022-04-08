@@ -49,7 +49,9 @@ To help, we have marked out these sections using emojis:
 
 - [macOS](https://openclassrooms.com/en/courses/4614926-learn-the-command-line-in-terminal?status=published)
 - [Linux/WSL](https://tutorials.ubuntu.com/tutorial/command-line-for-beginners)
-  Follow the whole course up to the end. Udacity also has [more practice material](https://www.udacity.com/course/shell-workshop--ud206) on the command line.
+
+
+Follow the whole course up to the end. Udacity also has [more practice material](https://www.udacity.com/course/shell-workshop--ud206) on the command line.
 
 📖 This [cheat sheet](https://www.git-tower.com/blog/command-line-cheat-sheet/) of common commands is very useful. Feel free to bookmark it but don't put any pressure on yourself to memorise them all!
 
