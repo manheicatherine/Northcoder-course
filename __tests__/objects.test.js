@@ -95,7 +95,7 @@ describe('getPropertyOfProduct', () => {
     expect(getPropertyOfProduct(satsumas, 'price')).toEqual('£1.09');
     expect(getPropertyOfProduct(satsumas, 'quantity')).toEqual(8);
     expect(getPropertyOfProduct(satsumas, 'type')).toEqual(
-      'Easy-peeler satsumas',
+      'Easy-peeler satsumas'
     );
   });
   it('returns the value associated with the property on the product', () => {
@@ -107,7 +107,7 @@ describe('getPropertyOfProduct', () => {
     expect(getPropertyOfProduct(springGreens, 'price')).toEqual('£0.79');
     expect(getPropertyOfProduct(springGreens, 'quantity')).toEqual(1);
     expect(getPropertyOfProduct(springGreens, 'type')).toEqual(
-      'Crisp spring greens',
+      'Crisp spring greens'
     );
   });
 });
@@ -131,7 +131,7 @@ describe('addPropertyToProduct', () => {
         'Linda Hamilton',
         'Robert Patrick',
         'Edward Furlong',
-      ]),
+      ])
     ).toEqual({
       type: 'Terminator 2: Judgement Day',
       price: '£6.99',
@@ -149,25 +149,25 @@ describe('addPropertyToProduct', () => {
 
 describe('createNorthcoder', () => {
   it("returns an object with a 'name' property set to the passed name argument", () => {
-    let northcoder = createNorthcoder('Mauro');
+    let northcoder = createNorthcoder('Hev');
     expect(northcoder).hasOwnProperty('name');
-    expect(northcoder.name).toEqual('Mauro');
+    expect(northcoder.name).toEqual('Hev');
 
-    northcoder = createNorthcoder('Ant');
+    northcoder = createNorthcoder('Rayhaan');
     expect(northcoder).hasOwnProperty('name');
-    expect(northcoder.name).toEqual('Ant');
+    expect(northcoder.name).toEqual('Rayhaan');
   });
   it("returns an object with an 'age' property set to the user's age in the year 2022 according to the passed yearOfBirth argument", () => {
-    let northcoder = createNorthcoder('Mauro', 1989);
+    let northcoder = createNorthcoder('Verity', 1987);
     expect(northcoder).hasOwnProperty('age');
-    expect(northcoder.age).toEqual(33);
+    expect(northcoder.age).toEqual(35);
 
-    northcoder = createNorthcoder('Ant', 1991);
+    northcoder = createNorthcoder('Cat', 1985);
     expect(northcoder).hasOwnProperty('age');
-    expect(northcoder.age).toEqual(31);
+    expect(northcoder.age).toEqual(37);
   });
   it("returns an object with a 'language' property set to JavaScript", () => {
-    const northcoder = createNorthcoder('Mauro', 1989);
+    const northcoder = createNorthcoder('August', 1992);
     expect(northcoder).hasOwnProperty('language');
     expect(northcoder.language).toEqual('JavaScript');
   });
@@ -194,30 +194,28 @@ describe('updateVoterAddress', () => {
 
 describe('createUserString', () => {
   it('returns a string containing "name : <user\'s name>"', () => {
-    const mitch = { name: 'Mitch', age: 27, language: 'Javascript' };
-    const actual = createUserString(mitch);
-    expect(actual.includes('name: Mitch')).toBe(true);
+    const chipie = { name: 'Chipie', age: 27, language: 'Javascript' };
+    const actual = createUserString(chipie);
+    expect(actual.includes('name: Chipie')).toBe(true);
   });
   it('returns a string containing "age : <user\'s age>"', () => {
-    const mitch = { name: 'Mitch', age: 27, language: 'Javascript' };
-    const actual = createUserString(mitch);
+    const chipie = { name: 'Chipie', age: 27, language: 'Javascript' };
+    const actual = createUserString(chipie);
     expect(actual.includes('age: 27')).toBe(true);
   });
   it('returns a string containing "language : <user\'s language>"', () => {
-    const mitch = { name: 'Mitch', age: 27, language: 'Javascript' };
-    const actual = createUserString(mitch);
+    const chipie = { name: 'Chipie', age: 27, language: 'Javascript' };
+    const actual = createUserString(chipie);
     expect(actual.includes('language: Javascript')).toBe(true);
   });
   it("returns a whole string with all of the user's details", () => {
-    const mitch = { name: 'Mitch', age: 27, language: 'Javascript' };
-    let actual = createUserString(mitch);
-    expect(actual.includes('name: Mitch, age: 27, language: Javascript')).toBe(
-      true,
-    );
+    const chipie = { name: 'Chipie', age: 27, language: 'Javascript' };
+    let actual = createUserString(chipie);
+    expect(actual).toBe('name: Chipie, age: 27, language: Javascript');
 
     const ant = { name: 'Ant', age: 28, language: 'Java' };
     actual = createUserString(ant);
-    expect(actual.includes('name: Ant, age: 28, language: Java')).toBe(true);
+    expect(actual).toBe('name: Ant, age: 28, language: Java');
   });
 });
 
@@ -236,13 +234,13 @@ describe('getNorthcodersNames', () => {
   });
   it('returns all the names of all the northcoders', () => {
     const northcoders = [
-      { name: 'Mitch', age: 27, language: 'Javascript' },
-      { name: 'Ant', age: 28, language: 'Java' },
-      { name: 'Natalia', age: 29, language: 'C' },
-      { name: 'Foluso', age: 26, language: 'Ruby' },
+      { name: 'Alex', age: 29, language: 'Javascript' },
+      { name: 'Rose', age: 32, language: 'Java' },
+      { name: 'Jade', age: 27, language: 'C' },
+      { name: 'Dom', age: 28, language: 'Ruby' },
     ];
     const actual = getNorthcodersNames(northcoders);
-    const expected = ['Mitch', 'Ant', 'Natalia', 'Foluso'];
+    const expected = ['Alex', 'Rose', 'Jade', 'Dom'];
     expect(actual).toEqual(expected);
   });
 });
@@ -267,13 +265,13 @@ describe('deleteManyPasswords', function () {
         { name: 'Barry', password: 'ilovetea' },
         { name: 'Sandeep', password: 'ilovecoffee' },
         { name: 'Kavita', password: 'ilovepie' },
-      ]),
+      ])
     ).toEqual([{ name: 'Barry' }, { name: 'Sandeep' }, { name: 'Kavita' }]);
     expect(
       deleteManyPasswords([
         { name: 'Carmen', password: 'ilovetea' },
         { name: 'Lisa', password: 'ilovepie' },
-      ]),
+      ])
     ).toEqual([{ name: 'Carmen' }, { name: 'Lisa' }]);
   });
 });
@@ -286,7 +284,7 @@ describe('countTheObjects', function () {
     expect(countTheObjects([1, 3, 4, 5, {}, {}, {}, 'foo'])).toEqual(3);
     expect(countTheObjects([1, [], 3, 4, 5, {}, {}, {}, 'foo'])).toEqual(3);
     expect(countTheObjects([1, [], null, 3, 4, 5, {}, {}, {}, 'foo'])).toEqual(
-      3,
+      3
     );
     expect(
       countTheObjects([
@@ -303,7 +301,7 @@ describe('countTheObjects', function () {
         {},
         {},
         'foo',
-      ]),
+      ])
     ).toEqual(4);
   });
 });
