@@ -2,7 +2,7 @@
 
 Congratulations on passing the entry challenge and taking your first steps towards the Northcoders Bootcamp! 🎉
 
-We suggest you work through the JavaScript Precourse before moving on to the HTML/CSS Precourse. We'd like you to have completed at least the JavaScript Precourse before starting the coding bootcamp.
+We suggest you work through the JavaScript Precourse before moving on to the HTML & CSS Precourse. We'd like you to have completed at least the JavaScript Precourse before starting the coding bootcamp.
 
 Please follow this README in order. The JavaScript Precourse contains a mixture of videos, reading material and challenges covering fundamental skills that we expect you to be comfortable with when you begin the bootcamp. </br>
 To help, we have marked out these sections using emojis:
