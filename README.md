@@ -189,3 +189,15 @@ Regular expressions are common across all programming languages and allow you to
 💻 In the advanced-challenges folder there is a file with the same name that contains further katas.
 
 The steps for completing the final challenges are the same as `4.Challenges`. Use what you've learnt about regex and functional programming where you can - it would be great to see some array methods used like `map` and `filter`. If you can't make it work, feel free to send us a message on Slack!
+
+---
+
+## Feedback
+
+At Northcoders we strive to make regular improvements to all of our content, whether that's to keep up with updates in tech or through good old fashioned feedback!
+
+We love feedback! So please, if you could spare 2 minutes of your time to fill out the typeform below, we would really appreciate it. Your thoughts will help make this material the best it can be. 
+
+This typeform would be filled out anonymously so feel free to be as constructive as you like 🙂 
+
+[https://northcoders.typeform.com/to/QIkAABhZ](https://northcoders.typeform.com/to/QIkAABhZ)
