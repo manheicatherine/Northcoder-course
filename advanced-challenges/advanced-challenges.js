@@ -32,11 +32,6 @@ function translateKey(student, keyToChange, translation) {
       surname: 'Bruni,
       job: 'Artist'
     }
-    
-    //////// HINT /////// 
-    Did you know you can iterate through an object's keys using a "for...in" loop? 
-    https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...in
-    /////////////////////
   */
 }
 
@@ -93,8 +88,6 @@ function pluraliseKeys(obj) {
         "Shaq's Taxidermy Shack",
         "Sam's Pet Shop"
       ]
-      
-      //////// HINT: Psst! Remember that "for...in" loop? Just sayin' 👀 /////////
     }
   */
 }
