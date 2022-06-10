@@ -95,7 +95,7 @@ describe('getPropertyOfProduct', () => {
     expect(getPropertyOfProduct(satsumas, 'price')).toEqual('£1.09');
     expect(getPropertyOfProduct(satsumas, 'quantity')).toEqual(8);
     expect(getPropertyOfProduct(satsumas, 'type')).toEqual(
-      'Easy-peeler satsumas'
+      'Easy-peeler satsumas',
     );
   });
   it('returns the value associated with the property on the product', () => {
@@ -107,7 +107,7 @@ describe('getPropertyOfProduct', () => {
     expect(getPropertyOfProduct(springGreens, 'price')).toEqual('£0.79');
     expect(getPropertyOfProduct(springGreens, 'quantity')).toEqual(1);
     expect(getPropertyOfProduct(springGreens, 'type')).toEqual(
-      'Crisp spring greens'
+      'Crisp spring greens',
     );
   });
 });
@@ -131,7 +131,7 @@ describe('addPropertyToProduct', () => {
         'Linda Hamilton',
         'Robert Patrick',
         'Edward Furlong',
-      ])
+      ]),
     ).toEqual({
       type: 'Terminator 2: Judgement Day',
       price: '£6.99',
@@ -256,6 +256,24 @@ describe('getAlbumProperties', () => {
     const expected = ['title', 'yearReleased', 'producer'];
     expect(actual).toEqual(expected);
   });
+  it("returns an array of a different album's keys", () => {
+    const input = {
+      title: 'Needle Paw',
+      yearReleased: 2017,
+      artist: 'Nai Palm',
+      copyright: 'Sony Music Entertainment',
+      producers: ['Nai Palm', 'Nick Hererra', 'Phil Noy'],
+    };
+    const actual = getAlbumProperties(input);
+    const expected = [
+      'title',
+      'yearReleased',
+      'artist',
+      'copyright',
+      'producers',
+    ];
+    expect(actual).toEqual(expected);
+  });
 });
 
 describe('deleteManyPasswords', function () {
@@ -265,13 +283,13 @@ describe('deleteManyPasswords', function () {
         { name: 'Barry', password: 'ilovetea' },
         { name: 'Sandeep', password: 'ilovecoffee' },
         { name: 'Kavita', password: 'ilovepie' },
-      ])
+      ]),
     ).toEqual([{ name: 'Barry' }, { name: 'Sandeep' }, { name: 'Kavita' }]);
     expect(
       deleteManyPasswords([
         { name: 'Carmen', password: 'ilovetea' },
         { name: 'Lisa', password: 'ilovepie' },
-      ])
+      ]),
     ).toEqual([{ name: 'Carmen' }, { name: 'Lisa' }]);
   });
 });
@@ -284,7 +302,7 @@ describe('countTheObjects', function () {
     expect(countTheObjects([1, 3, 4, 5, {}, {}, {}, 'foo'])).toEqual(3);
     expect(countTheObjects([1, [], 3, 4, 5, {}, {}, {}, 'foo'])).toEqual(3);
     expect(countTheObjects([1, [], null, 3, 4, 5, {}, {}, {}, 'foo'])).toEqual(
-      3
+      3,
     );
     expect(
       countTheObjects([
@@ -301,7 +319,7 @@ describe('countTheObjects', function () {
         {},
         {},
         'foo',
-      ])
+      ]),
     ).toEqual(4);
   });
 });
