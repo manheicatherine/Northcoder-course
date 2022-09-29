@@ -5,11 +5,20 @@ function isOver40(user) {
   /*
     This function takes a user object with a property of age. It should return true if the user is over 40 and false if the user is 40 or younger.
     */
+   if(user["age"] > 40){
+    return true;
+   } else {
+    return false;
+   }
 }
 
 function getUserAge(user) {
   // return the user's age as a number.
   // you can assume that the passed user will always have a 'yearOfBirth' property.
+  // console.log(new Date().getFullYear());
+
+  return new Date().getFullYear() - user['yearOfBirth'];
+
 }
 
 function getUserPetAge(user) {
@@ -25,12 +34,16 @@ function getUserPetAge(user) {
       };
       This function should access the age property in the nested pet object and return the value
   */
+//  console.log(user);
+return user.pet.age;
 }
 
 function createProduct() {
   /*
     This function should return an object with a type property and a price property. The value for type can be any string, and the value for price should be a number.
   */
+ const product = {type: "string", price: 12};
+  return product;
 }
 
 function addPriceToProduct(product, price) {
@@ -38,6 +51,8 @@ function addPriceToProduct(product, price) {
     { type: 'Tofu slices' }
     Add a price property to this object and set its value to the price passed in as an argument. Then return the object.
     */
+    product.price = price;
+  return product;
 }
 
 function getPropertyOfProduct(product, property) {
@@ -46,6 +61,7 @@ function getPropertyOfProduct(product, property) {
     Given a 'property' as an argument, return the value associated with that 'property'. 
     E.g. if asked for the price 'property' of the above satsumas object, your function would return '£1.09'.
   */
+ return product[property];
 }
 
 function addPropertyToProduct(product, property, value) {
@@ -55,6 +71,8 @@ function addPropertyToProduct(product, property, value) {
     E.g. if given the 'property' 'length' and the value '2h 36m' (yes it really is that long) 
     your function should return { type: 'Terminator 2: Judgement Day', price: '£6.99', quantity: 1, length: '2h 36m' }
   */
+   product[property] = value;
+   return product;
 }
 
 function createNorthcoder(name, yearOfBirth) {
@@ -62,6 +80,8 @@ function createNorthcoder(name, yearOfBirth) {
   // a name property set to the value of the name parameter
   // an age property set to whatever the age of the northcoder would be in the year 2022
   // a language property set to 'JavaScript'
+  return{ ["name"]: name, ["age"]: new Date().getFullYear() - yearOfBirth, ["language"]: "JavaScript"};
+
 }
 
 function updateVoterAddress(voter, correctHouseNumber) {
@@ -77,6 +97,7 @@ function updateVoterAddress(voter, correctHouseNumber) {
     };
     Note - The function does NOT need to return anything.
   */
+    voter.address.houseNumber = correctHouseNumber;
 }
 
 function createUserString(userObj) {
@@ -84,17 +105,31 @@ function createUserString(userObj) {
   // returns a string with the user's details in the form:
   // 'name: Mitch, age: 27, language: Javascript';
   // Note - this is a good use case of string template literals.
+  
+
+  return   `name: ${userObj.name}, age: ${userObj.age}, language: ${userObj.language}`;
+
 }
 
 function getNorthcodersNames(northcoders) {
   // should take an array of objects with the format from createNorthcoder
   // returns an array of the users' names as strings
+
+  const newArr = [];
+  for(let i = 0; i < northcoders.length; i++)
+  newArr.push(northcoders[i].name)
+  return newArr;
 }
 
 function getAlbumProperties(obj) {
   // should take an object with information about an album
   // should return an array containing all of the object's keys
   // E.g. {a: 'foo', b: 'car', c: 'bar'} should return ['a', 'b', 'c']
+  
+  const newArr = Object.keys(obj);
+  // const objKey = Object.keys(obj);
+  //   newArr.push(objKey);
+  return newArr;
 }
 
 function deleteManyPasswords(users) {
@@ -113,6 +148,11 @@ function deleteManyPasswords(users) {
       {name: 'Kavita'}
     ]
     */
+   for(let i = 0; i < users.length; i++){
+    delete users[i]["password"];
+   }
+   return users;
+   
 }
 
 function countTheObjects(arr) {
@@ -120,7 +160,17 @@ function countTheObjects(arr) {
     This function takes an array of different data types. It should return a count of the number of objects in the array.
     NB, think carefully about how to test if something is an object! Arrays are technically types of objects in JavaScript, as is the value null. However these should not be counted.
     */
+    var counter = 0;
+    for(let i = 0; i < arr.length; i++){
+      if (typeof arr[i] === "object" && !Array.isArray(arr[i]) && arr[i] !== null){
+      counter++;
+    }
+  }
+    return counter;
+
 }
+
+
 
 // ---------- Do not change the code below this line --------------
 module.exports = {
