@@ -266,18 +266,6 @@ function sumDigitsFromString(str) {
     'foo99cat' => 18
     Tip: For this one, it might be useful to know that the value `NaN` in JavaScript behaves oddly. For example, if you do `typeof NaN` it tells you it's a `"number"`. Odd, eh?
   */
-  //  Changed into number and sum up the number.
-  // Number.isNaN(str[i]) -> return true false only;
-  // let sum = 0;
-  // // console.log(str)
-  // for (let i = 0; i < str.length; i++) {
-  //   // console.log(str[i])
-  //   if (typeof str[i] === "number") {
-  //     console.log(str[i]);
-  //     // sum = sum + num[i];
-  //   }
-  // }
-  // return sum;
   const characters = str.split("");
   const numbers = characters.filter((word) => /^[0-9]/.test(word));
   const sum = numbers.reduce((previous, current) => previous + parseInt(current), 0);
